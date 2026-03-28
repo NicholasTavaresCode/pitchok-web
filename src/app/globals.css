@@ -1,26 +1,220 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Surface hierarchy (tonal layering, NO borders) */
+  --color-surface: #f6f6f8;
+  --color-surface-dim: #d6d7d9;
+  --color-surface-bright: #f6f6f8;
+  --color-surface-lowest: #ffffff;
+  --color-surface-low: #f0f1f3;
+  --color-surface-container: #eaebed;
+  --color-surface-high: #e3e4e7;
+  --color-surface-highest: #dbdde0;
+  --color-surface-variant: #e3e4e7;
+  --color-surface-tint: #0058bb;
+
+  /* Primary (vibrant blue) */
+  --color-primary: #0058bb;
+  --color-primary-container: #6c9fff;
+  --color-primary-fixed: #d6e3ff;
+  --color-primary-dim: #004a9e;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #001c3d;
+
+  /* Secondary (cool graphite) */
+  --color-secondary: #5a5c5e;
+  --color-secondary-container: #dfe0e2;
+  --color-secondary-fixed: #e8e9eb;
+  --color-secondary-dim: #c3c4c6;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #474849;
+
+  /* Tertiary (accent purple) */
+  --color-tertiary: #883c93;
+  --color-tertiary-container: #f3d4f7;
+  --color-tertiary-fixed: #fbd6ff;
+  --color-tertiary-dim: #d4a0de;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #36003f;
+
+  /* Text & outlines — NEVER pure black */
+  --color-on-surface: #2d2f31;
+  --color-on-surface-variant: #5a5c5e;
+  --color-on-background: #2d2f31;
+  --color-outline: #8a8c8e;
+  --color-outline-variant: #acadaf;
+
+  /* Error */
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+
+  /* Inverse */
+  --color-inverse-surface: #2f3132;
+  --color-inverse-on-surface: #f0f0f2;
+  --color-inverse-primary: #a9c7ff;
+
+  /* Typography */
+  --font-headline: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-label: "Manrope", sans-serif;
+
+  /* Border radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 1.5rem;
+  --radius-lg: 2rem;
+  --radius-full: 9999px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Smooth anchor scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base */
+body {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-body);
+  letter-spacing: 0.01em;
+}
+
+/* Glass morphism (floating elements) */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Signature gradient (135deg, primary → primary-container) */
+.gradient-primary {
+  background: linear-gradient(135deg, #0058bb, #6c9fff);
+}
+
+/* Primary pill CTA */
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  border-radius: var(--radius-full);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dim);
+}
+
+/* Secondary button */
+.btn-secondary {
+  background-color: var(--color-surface-high);
+  color: var(--color-on-surface);
+  border-radius: var(--radius-full);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-surface-highest);
+}
+
+/* Ghost border (accessibility fallback, outline-variant at 15%) */
+.ghost-border {
+  border: 1px solid rgba(172, 173, 175, 0.15);
+}
+
+/* Ambient shadow — tinted on-surface, never pure black */
+.shadow-ambient {
+  box-shadow: 0 20px 40px rgba(45, 47, 49, 0.06);
+}
+
+/* Focus states (primary blue) */
+*:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface-low);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-outline-variant);
+  border-radius: 3px;
+}
+
+/* Selection */
+::selection {
+  background: rgba(0, 88, 187, 0.15);
+  color: var(--color-on-surface);
+}
+
+/* ── Stickman hero background animations ── */
+
+/*
+ * Full cycle: fade-in → bob gently while visible → fade-out → stay hidden
+ * Duration varies per stickman (10–14s) for organic staggering.
+ * Max opacity 0.22 keeps them firmly in the background.
+ */
+@keyframes stickman-cycle {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  12% {
+    opacity: 0.45;
+    transform: translateY(0);
+  }
+
+  32% {
+    opacity: 0.80;
+    transform: translateY(-3px);
+  }
+
+  52% {
+    opacity: 0.85;
+    transform: translateY(1px);
+  }
+
+  68% {
+    opacity: 0.85;
+    transform: translateY(-2px);
+  }
+
+  80% {
+    opacity: 0.45;
+    transform: translateY(-6px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/*
+ * Speech bubble pops in slightly after the stickman appears,
+ * then shrinks away slightly before the stickman fades out.
+ */
+@keyframes bubble-pop {
+
+  0%,
+  14% {
+    transform: scale(0);
+  }
+
+  22% {
+    transform: scale(1.12);
+  }
+
+  28%,
+  74% {
+    transform: scale(1);
+  }
+
+  82%,
+  100% {
+    transform: scale(0);
+  }
 }

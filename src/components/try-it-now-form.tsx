@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const MIN = 20;
-const MAX = 2000;
+const MAX = 1000;
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 

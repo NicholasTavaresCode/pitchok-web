@@ -214,15 +214,17 @@ function generateStickmen(): StickmanData[] {
    ────────────────────────────────────────────── */
 
 export function HeroBackground() {
-  const [stickmen, setStickmen] = useState<StickmanData[]>(() => generateStickmen());
-  const [ideas, setIdeas] = useState<string[]>(() => IDEAS.slice(0, 14));
+  const [stickmen, setStickmen] = useState<StickmanData[] | null>(null);
+  const [ideas, setIdeas] = useState<string[]>([]);
 
   useEffect(() => {
     const next = generateStickmen();
-    setStickmen(next);
     const shuffled = [...IDEAS].sort(() => Math.random() - 0.5);
     setIdeas(shuffled.slice(0, next.length));
+    setStickmen(next);
   }, []);
+
+  if (!stickmen) return null;
 
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none select-none" aria-hidden="true">

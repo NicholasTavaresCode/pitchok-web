@@ -1,17 +1,31 @@
+import { cookies } from "next/headers";
+import { redirect } from "next/navigation";
 import { NewPitchForm } from "@/components/dashboard/new-pitch-form";
 import { PitchList } from "@/components/dashboard/pitch-list";
 import { HeroBackground } from "@/components/hero-background";
-import { MOCK_USER, MOCK_PITCHES, MAX_PITCHES } from "@/lib/mock-pitches";
+import { MOCK_PITCHES, MAX_PITCHES } from "@/lib/mock-pitches";
+import type { AuthUser } from "@/context/auth-context";
 
 export const metadata = {
   title: "Dashboard",
   robots: { index: false, follow: false },
 };
 
-export default function DashboardPage() {
+export default async function DashboardPage() {
+  const cookieStore = await cookies();
+  const userCookie = cookieStore.get("pitchok_user");
+  if (!userCookie) redirect("/");
+
+  let user: AuthUser;
+  try {
+    user = JSON.parse(userCookie.value) as AuthUser;
+  } catch {
+    redirect("/");
+  }
+
   const used = MOCK_PITCHES.length;
   const canSubmit = used < MAX_PITCHES;
-  const firstName = MOCK_USER.name.split(" ")[0];
+  const firstName = user.name.split(" ")[0];
 
   return (
     <div className="relative pt-28 pb-20 px-6 min-h-screen overflow-hidden">
@@ -29,7 +43,7 @@ export default function DashboardPage() {
                 Your Pitches
               </h1>
               <p className="mt-2 text-sm text-on-surface-variant max-w-md">
-                The richer the context you provide, the sharper the AI analysis will be.
+                The richer the context you provide, the sharper the AI Agents analysis will be.
               </p>
             </div>
 

@@ -3,25 +3,12 @@ import { ReportScorecardCard } from "@/components/report-scorecard-card";
 import { ReportRatingForm } from "@/components/report-rating-form";
 import { ScorecardInfo } from "@/components/scorecard-info";
 import { HeroBackground } from "@/components/hero-background";
+import { getReport, getReportIds } from "@/lib/api";
 import Link from "next/link";
-import aiFinancial from "@/data/reports/ai-financial-management-platform.json";
-import exchangeMarketplace from "@/data/reports/reusable-material-exchange-marketplace.json";
-import exchangePlatform from "@/data/reports/reusable-material-exchange-platform.json";
 
-const REPORTS: Record<string, typeof aiFinancial> = {
-  "ai-financial-management-platform": aiFinancial,
-  "reusable-material-exchange-marketplace": exchangeMarketplace,
-  "reusable-material-exchange-platform": exchangePlatform,
-};
-
-const METADATA: Record<string, { submitted_at: string; status: string }> = {
-  "ai-financial-management-platform":        { submitted_at: "2026-03-28T20:31:05", status: "Completed" },
-  "reusable-material-exchange-marketplace":  { submitted_at: "2026-03-28T20:22:12", status: "Completed" },
-  "reusable-material-exchange-platform":     { submitted_at: "2026-03-28T19:56:42", status: "Completed" },
-};
-
-export function generateStaticParams() {
-  return Object.keys(REPORTS).map((id) => ({ id }));
+export async function generateStaticParams() {
+  const ids = await getReportIds();
+  return ids.map((id) => ({ id }));
 }
 
 /* ── helpers ── */
@@ -89,15 +76,14 @@ function Card({ children, className = "", style }: { children: React.ReactNode; 
 /* ── page ── */
 export default async function ReportPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const report = REPORTS[id];
-  if (!report) notFound();
+  const report = await getReport(id);
+  if (!report) return notFound();
 
   const vc = verdictColor(report.verdict);
-  const meta = METADATA[id];
   const keySources = report.sources.filter((s) => s.key);
   const otherSources = report.sources.filter((s) => !s.key);
 
-  const submittedAt = new Date(meta.submitted_at).toLocaleString("en-US", {
+  const submittedAt = new Date(report.submitted_at).toLocaleString("en-US", {
     month: "short", day: "numeric", year: "numeric",
     hour: "2-digit", minute: "2-digit",
   });

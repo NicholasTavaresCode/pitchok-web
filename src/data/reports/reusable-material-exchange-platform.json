@@ -1,0 +1,1290 @@
+{
+  "idea_title": "Reusable Material Exchange Platform",
+  "problem_statement": "Individuals and businesses often discard valuable \"trash\" materials (e.g., used oil, timber scraps, old computer parts) that could be reused or repurposed, leading to unnecessary waste, environmental burden, and missed economic opportunities. There's a lack of an efficient, centralized platform to connect those looking to dispose of such materials with those who could utilize them.",
+  "proposed_solution": "A web-based marketplace where users can list \"useful trash\" materials they wish to sell or give away, and other users can browse, search, and acquire these materials. The platform would facilitate the exchange of items like used oil, timber offcuts, old computer components, and other reusable waste that would otherwise go to landfills.",
+  "target_audience": "DIY Enthusiasts/Crafters/Artists/Hobbyists: A massive audience (e.g., r/DIY with 27M+ subscribers) actively seeking materials for projects. Environmentally Conscious Consumers/Zero Waste Advocates: A large community (e.g., r/ZeroWaste with 1.1M+ subscribers) driven by sustainability and waste reduction. Upcyclers: A dedicated and growing segment (e.g., r/upcycling with 268K+ subscribers) focused on transforming waste into new products. Small Businesses/Workshops: While less directly represented in large subreddits, their needs for material sourcing and disposal are inferred from the broader reuse movement.",
+  "executive_summary": "This report assesses the potential of a \"Reusable Material Exchange Platform.\" While the idea addresses a significant market demand for sustainable material reuse, its current broad scope, particularly the inclusion of hazardous materials, introduces severe regulatory and liability risks. The single most important insight for the entrepreneur is that the current broad scope, specifically including hazardous materials like used oil and old computer parts, is fundamentally unfeasible and poses insurmountable legal and regulatory risks. A drastic narrowing of material scope to non-hazardous items is critical for viability.",
+  "verdict": "MODERATE POTENTIAL",
+  "overall_score": 6.8,
+  "subreddits_count": 7,
+  "top_subreddits": [
+    "DIY",
+    "ZeroWaste",
+    "upcycling",
+    "sewing"
+  ],
+  "signal_quality": "strong",
+  "pain_points": [
+    {
+      "rank": 1,
+      "title": "Difficulty in Sourcing Specific Reusable Materials",
+      "description": "Users in these communities are actively engaged in projects and lifestyles that require unique or repurposed materials. The absence of a dedicated marketplace suggests they currently face friction in finding what they need.",
+      "evidence_strength": "weak",
+      "representative_quote": "Inferred from the existence of large communities like r/DIY, r/ZeroWaste, and r/upcycling.",
+      "type": "Painkiller"
+    },
+    {
+      "rank": 2,
+      "title": "Inefficient Disposal of Useful Surplus Materials",
+      "description": "Individuals and small businesses likely struggle to efficiently offload materials they no longer need but know have value to others, leading to unnecessary waste.",
+      "evidence_strength": "weak",
+      "representative_quote": "Inferred from the existence of large communities like r/DIY, r/ZeroWaste, and r/upcycling.",
+      "type": "Painkiller"
+    }
+  ],
+  "competitors": [
+    {
+      "name": "General Classifieds Websites",
+      "description": "Broad platforms for buying/selling various used goods.",
+      "strengths": [
+        "Wide reach",
+        "often free or low-cost"
+      ],
+      "weaknesses": [
+        "Lack of specialization for 'waste' materials",
+        "poor categorization",
+        "low trust",
+        "difficult to find specific niche items",
+        "not optimized for material exchange"
+      ],
+      "sentiment": "Mixed"
+    },
+    {
+      "name": "Specialized Recycling & Waste Brokers",
+      "description": "Companies dealing in specific industrial waste streams.",
+      "strengths": [
+        "Expertise in specific materials",
+        "compliance with regulations"
+      ],
+      "weaknesses": [
+        "Not accessible to individuals or small businesses for diverse 'useful trash'",
+        "often high volume requirements",
+        "not focused on reuse/upcycling"
+      ],
+      "sentiment": "Mixed"
+    },
+    {
+      "name": "Online Marketplaces for Used Goods",
+      "description": "Platforms for buying/selling used consumer goods.",
+      "strengths": [
+        "Established user base",
+        "payment processing"
+      ],
+      "weaknesses": [
+        "Less focused on 'waste' or raw materials for reuse/upcycling",
+        "often higher transaction costs",
+        "not ideal for bulky or low-value items"
+      ],
+      "sentiment": "Mixed"
+    }
+  ],
+  "differentiation_opportunities": [
+    {
+      "category": "Unmet need",
+      "gap": "No single, centralized platform exists specifically for the exchange of diverse \"useful trash\" materials for reuse and upcycling, catering to both individuals and small businesses.",
+      "evidence": "The \"GAPS (STRONG Signal)\" section explicitly states this. The existence of r/DIY, r/ZeroWaste, and r/upcycling with millions of subscribers indicates a strong, active community that *would* benefit from such a platform.",
+      "how_to_exploit": "By creating a platform specifically designed for this purpose, with appropriate categorization, search filters, and community features tailored to reusers and upcyclers, the entrepreneur can capture this underserved market. This specialization offers a superior user experience compared to general classifieds.",
+      "rating": "HIGH"
+    },
+    {
+      "category": "Common weakness",
+      "gap": "General classifieds (e.g., Craigslist, Facebook Marketplace) are often used as workarounds but are inefficient for specific material sourcing, lack robust categorization, and suffer from low trust.",
+      "evidence": "The \"WORKAROUNDS (Inferred)\" section notes \"the friction and inefficiency of these general platforms for specific 'waste' materials would be a strong unmet need.\"",
+      "how_to_exploit": "The platform can win by offering a more curated, trustworthy environment. Features like user profiles, ratings, clear material descriptions, photos, and potentially local pickup/delivery coordination can build trust and efficiency that general platforms lack.",
+      "rating": "HIGH"
+    },
+    {
+      "category": "Underserved segment",
+      "gap": "While communities exist, there isn't a direct marketplace for upcyclers and DIYers to easily find specific raw materials (e.g., a certain type of timber offcut, specific fabric scraps, unique glass bottles).",
+      "evidence": "The large subscriber counts in r/DIY (27M+) and r/upcycling (268K+) demonstrate a massive audience with specific material needs for their projects.",
+      "how_to_exploit": "Tailor the platform's search, listing, and notification features to allow users to specify and find very particular types of materials, fostering a community around creative reuse.",
+      "rating": "HIGH"
+    }
+  ],
+  "market_position_summary": "The market for general used goods is crowded, but the specific niche of \"reusable waste material exchange\" for individuals and small businesses is sparse with no clear market leader. While general classifieds serve as imperfect workarounds, there is a significant opportunity for a specialized platform. The existence of large, engaged communities (e.g., r/DIY, r/ZeroWaste, r/upcycling) indicates that the market exists and is ripe for a dedicated solution, even if new competitors are not explicitly emerging in this exact niche.",
+  "dimension_scores": [
+    {
+      "name": "Problem-Solution Fit",
+      "score": 8.0,
+      "weight_pct": 30,
+      "weighted_score": 2.4,
+      "justification": "The analysis clearly indicates a strong problem-solution fit for *some* materials. The \"GAPS (STRONG Signal)\" section highlights the absence of a dedicated marketplace for diverse \"useful trash\" materials, and that users in communities like `r/DIY` and `r/upcycling` likely face challenges in sourcing or disposing of surplus materials. The proposed web-based marketplace directly addresses this identified gap by providing a centralized platform. The problem of waste and missed economic opportunities is real, and a platform to connect disposers with reusers is a logical solution. However, the fit is not perfect for *all* materials due to the feasibility issues discussed above, which slightly reduces the score from a perfect 10."
+    },
+    {
+      "name": "Market Demand",
+      "score": 9.0,
+      "weight_pct": 25,
+      "weighted_score": 2.25,
+      "justification": "The market signals are exceptionally strong. The \"Demand Indicators (STRONG Signal)\" section points to massive subscriber counts in highly relevant subreddits: `r/DIY` (27M+), `r/ZeroWaste` (1.1M+), and `r/upcycling` (268K+). The combined potential user base easily exceeds 28 million, indicating a very large and engaged audience interested in the core concepts of reuse, sustainability, and DIY projects. This suggests a significant volume of people experiencing the problem and actively seeking solutions, even if they are currently using inefficient workarounds like general classifieds. The data does not provide insights into *urgency* or *willingness to pay*, which prevents a perfect score, but the sheer scale of interest is undeniable."
+    },
+    {
+      "name": "Competitive Advantage",
+      "score": 7.0,
+      "weight_pct": 20,
+      "weighted_score": 1.4,
+      "justification": "The analysis identifies a clear competitive advantage in specialization. The \"GAPS (STRONG Signal)\" section explicitly states, \"There is no single, large, dedicated subreddit that functions as a marketplace for the *exchange of diverse \"useful trash\" materials* for reuse/upcycling.\" While general classifieds (Craigslist, Facebook Marketplace) serve as workarounds, the analysis notes \"the friction and inefficiency of these general platforms for specific 'waste' materials would be a strong unmet need.\" A dedicated platform offers better search, categorization, and community focus, providing a meaningful differentiation. The advantage is strong, but the market isn't entirely greenfield, as general platforms do exist, albeit imperfectly."
+    },
+    {
+      "name": "Feasibility & Reality Check",
+      "score": 3.0,
+      "weight_pct": 20,
+      "weighted_score": 0.6,
+      "justification": "This is the weakest point of the idea as currently defined. While the underlying technology (web marketplace) is straightforward, the core premise of easily exchanging *all* \"useful trash\" materials, specifically \"used oil\" and \"old computer parts,\" is fundamentally flawed due to significant regulatory, legal, and liability challenges. Regulatory Barriers: Used oil and e-waste are often classified as hazardous materials, subject to strict environmental laws regarding handling, transport, and disposal. A general marketplace cannot simply facilitate these exchanges without becoming a regulated entity itself, incurring massive compliance costs and legal risks. Liability: The platform would face substantial liability for environmental damage, improper disposal, or data breaches if it facilitates the exchange of these materials without robust safeguards and legal compliance. Operational Complexity: Managing the logistics and legalities for such diverse materials, from simple timber scraps to hazardous waste, within a single platform is immensely complex and expensive, far beyond a \"straightforward to build and launch\" scenario. This is not an impossible idea in its entirety, but the inclusion of specific materials makes the *current broad scope* highly unfeasible and contradicts established legal and environmental realities. It would require significant breakthroughs in regulatory frameworks or a drastic narrowing of material scope."
+    },
+    {
+      "name": "Risk Assessment",
+      "score": 3.0,
+      "weight_pct": 5,
+      "weighted_score": 0.15,
+      "justification": "The primary risks stem directly from the feasibility issues. Regulatory/Legal Risk (High): As detailed above, facilitating the exchange of hazardous materials without proper licensing and compliance exposes the platform to severe legal penalties, fines, and potential shutdown. This is the single biggest risk. Liability Risk (High): Environmental damage, personal injury from improperly handled materials, or data breaches from exchanged electronics could lead to massive lawsuits. Operational Complexity Risk (High): The logistical and quality control challenges of verifying materials, ensuring safe exchange, and managing diverse categories (some benign, some hazardous) are substantial. While market demand is high, the regulatory and liability risks are so profound for the proposed broad scope that they overshadow the potential."
+    }
+  ],
+  "risks": [
+    {
+      "title": "Regulatory and Legal Non-Compliance & Liability",
+      "description": "The most critical risk. Facilitating the exchange of hazardous materials (e.g., used oil, e-waste) without extensive licensing, compliance infrastructure, and liability insurance would expose the platform to massive fines, legal action, and potential shutdown. This is a fundamental flaw in the current broad scope.",
+      "likelihood": "High",
+      "mitigation": "Remove 'used oil' and 'old computer parts' from the initial offering. Focus exclusively on materials with low regulatory hurdles and minimal environmental/safety risks."
+    },
+    {
+      "title": "Operational Complexity & Quality Control",
+      "description": "Managing the logistics, verification, and quality of a wide array of materials, from simple wood scraps to potentially contaminated items, poses significant operational challenges. Ensuring materials are genuinely 'useful' and safe for reuse requires robust processes.",
+      "likelihood": "Medium",
+      "mitigation": "Develop clear guidelines for material quality, quantity, and exchange logistics (e.g., clear descriptions, multiple photos, dimensions, pickup/drop-off coordination). Implement a robust user rating and review system to build trust and ensure quality."
+    },
+    {
+      "title": "User Adoption & Trust",
+      "description": "While market demand is high, convincing users to switch from existing (albeit inefficient) workarounds requires building significant trust and demonstrating clear value. Initial low liquidity (few listings/users) could hinder adoption.",
+      "likelihood": "Medium",
+      "mitigation": "Pilot with a hyper-local model to build community trust and facilitate easier physical exchange. Implement a robust user rating and review system."
+    }
+  ],
+  "pivots": [
+    {
+      "title": "Narrow the Scope to Non-Hazardous Materials",
+      "description": "Remove 'used oil' and 'old computer parts' from the initial offering. Focus exclusively on materials with low regulatory hurdles and minimal environmental/safety risks (e.g., timber scraps, fabric offcuts, glass jars, plastic containers, furniture components, craft supplies, building offcuts).",
+      "rationale": "This drastically improves feasibility and reduces legal/regulatory risk."
+    },
+    {
+      "title": "Pilot with Localized Exchange and Community Focus",
+      "description": "Start with a hyper-local model (e.g., a specific city or region). This simplifies logistics, allows for easier physical exchange, and fosters a stronger sense of community and trust among early adopters.",
+      "rationale": "This aligns with the community-driven nature observed in `r/DIY` and `r/upcycling`."
+    },
+    {
+      "title": "Integrate with Existing Recycling/Disposal for Hazardous Items (Future Phase)",
+      "description": "Once the platform is established for non-hazardous materials, consider *partnering* with certified hazardous waste recyclers or e-waste disposal services. The platform could then offer *information* or *referrals* for these materials, rather than directly facilitating their exchange.",
+      "rationale": "This addresses the broader waste problem without incurring the platform's direct liability."
+    },
+    {
+      "title": "Focus on Logistics & Verification for Non-Hazardous Materials",
+      "description": "Develop clear guidelines for material quality, quantity, and exchange logistics (e.g., clear descriptions, multiple photos, dimensions, pickup/drop-off coordination). Implement a robust user rating and review system to build trust and ensure quality, addressing the 'inefficiency and lack of trust' pain point inferred from general classifieds.",
+      "rationale": "This addresses the 'inefficiency and lack of trust' pain point inferred from general classifieds."
+    }
+  ],
+  "use_cases": [
+    {
+      "title": "The DIY Project Material Finder",
+      "target_audience": "DIY enthusiasts, crafters, artists (e.g., `r/DIY` subscribers).",
+      "problem_solved": "Difficulty in sourcing specific, affordable, or unique raw materials (e.g., a specific type of wood offcut for a small furniture project, unique glass bottles for lighting, fabric scraps for quilting). Current solutions are too general or expensive.",
+      "competitive_advantage": "A specialized platform with detailed categorization and search allows users to find exactly what they need, fostering creativity and reducing project costs.",
+      "priority": "High"
+    },
+    {
+      "title": "The Zero-Waste Material Disposer",
+      "target_audience": "Environmentally conscious individuals and small businesses (e.g., `r/ZeroWaste` subscribers).",
+      "problem_solved": "The frustration of discarding perfectly usable materials that could have a second life, but lacking an efficient way to connect with potential reusers.",
+      "competitive_advantage": "Provides a guilt-free, efficient channel for responsible disposal, aligning with their core values and contributing to a circular economy.",
+      "priority": "High"
+    },
+    {
+      "title": "The Upcycler's Supply Hub",
+      "target_audience": "Dedicated upcyclers and small upcycling businesses (e.g., `r/upcycling` subscribers).",
+      "problem_solved": "The constant need for diverse and often unconventional materials to transform into new products. Existing marketplaces aren't tailored to their specific, often eclectic, sourcing needs.",
+      "competitive_advantage": "Becomes the go-to resource for creative materials, enabling their business models and artistic endeavors by providing a reliable and varied supply chain.",
+      "priority": "High"
+    }
+  ],
+  "next_steps": [
+    "Conduct Direct User Interviews",
+    "Deep Dive into Local Regulations",
+    "Develop a Minimum Viable Product (MVP) Scope",
+    "Explore Monetization Strategies",
+    "Engage with Local Reuse Organizations"
+  ],
+  "sources": [
+    {
+      "url": "https://www.reddit.com/r/OKLOSTOCK/comments/1osp6oy/cnbc_new_us_nuclear_power_boom_begins_with_old/",
+      "title": "CNBC | New U.S. nuclear power boom begins with old, still-unsolved problem: What to do with radioactive waste",
+      "subreddit": "OKLOSTOCK",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/antifastonetoss/comments/fcck5a/the_definitive_guide_to_why_stonetoss_is_a_nazi/",
+      "title": "The Definitive Guide to Why Stonetoss is a Nazi.",
+      "subreddit": "antifastonetoss",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Cooking/comments/njyvii/i_think_a_lot_of_social_media_cooks_mislead_home/",
+      "title": "I think a lot of social media cooks mislead home cooks (rant)",
+      "subreddit": "Cooking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ChaosZeroNightmare/comments/1oo7mvx/psa_you_are_100_wasting_your_resources/",
+      "title": "PSA: You are 100% Wasting Your Resources",
+      "subreddit": "ChaosZeroNightmare",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/wastemanagementhub/comments/1q4keug/organic_waste_composter_owc_solving_the_wet_waste/",
+      "title": "ORGANIC WASTE COMPOSTER (OWC): SOLVING THE WET WASTE PROBLEM AT ITS SOURCE",
+      "subreddit": "wastemanagementhub",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/factorio/comments/1hfvedj/space_logistics_qol_is_horrible/",
+      "title": "Space logistics QoL is horrible",
+      "subreddit": "factorio",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/spacex/comments/isgwoy/what_technologies_and_systems_does_spacex_need_to/",
+      "title": "What technologies and systems does Spacex need to work on over the next 4 years besides Starship to achieve its mars goals?",
+      "subreddit": "spacex",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/RimWorld/comments/ynlhgu/a_definitive_guide_to_efficient_freezers_14/",
+      "title": "A Definitive Guide to Efficient Freezers [1.4]",
+      "subreddit": "RimWorld",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/1k2asba/zero_waste_plastic_and_toxic_problems/",
+      "title": "Zero waste plastic and toxic problems",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ireland/comments/rmrv8u/irish_whiskey_a_guide_and_faq_through_the_festive/",
+      "title": "Irish Whiskey. A guide and FAQ through the festive period and beyond.",
+      "subreddit": "ireland",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ClashRoyale/comments/wtmpo3/updated_the_longest_possible_clash_royale_game_10/",
+      "title": "[UPDATED] The Longest Possible Clash Royale Game! (10 ^ 10 ^ 10000120 years)",
+      "subreddit": "ClashRoyale",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/singapore/comments/1m7371b/if_singapores_boring_what_would_you_do_if_you/",
+      "title": "If Singapore’s “boring”, what would you do if you were the government?",
+      "subreddit": "singapore",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/StonetossIsANazi/comments/fcce58/the_definitive_guide_to_why_stonetoss_is_a_nazi/",
+      "title": "The Definitive Guide to Why Stonetoss is a Nazi.",
+      "subreddit": "StonetossIsANazi",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/gachagaming/comments/1pqxic6/analyzing_naruto_mobilea_praiseworthy_paradox/",
+      "title": "Analyzing Naruto Mobile—A Praiseworthy Paradox",
+      "subreddit": "gachagaming",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/patientgamers/comments/1e6ptcg/elden_ring_a_good_game_that_i_dont_want_to_play/",
+      "title": "Elden Ring - A Good Game that I don't want to play again ",
+      "subreddit": "patientgamers",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ComfyChair/comments/1odv4dl/how_do_i_dispose_of_an_old_chair/",
+      "title": "How do I dispose of an old chair?",
+      "subreddit": "ComfyChair",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/thesidehustle/comments/1hoodq9/how_to_get_free_electronics_make_money_part_2/",
+      "title": "How to get free Electronics &amp; Make Money! Part 2",
+      "subreddit": "thesidehustle",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/NIOCORP_MINE/comments/1hghsk8/niocorpniobium_electrical_steel_called_out_as_us/",
+      "title": "#NIOCORP~NIOBIUM &amp; ELECTRICAL STEEL called out as ~U.S. Moves Big on Critical Minerals, &amp; NIOCORP'S SCANDIUM TRAIL 2023 -2024 plus a  bit more...",
+      "subreddit": "NIOCORP_MINE",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ecommerce/comments/1dyjjwa/ecommerce_industry_news_recap_week_of_july_8th/",
+      "title": "E-commerce Industry News Recap 🔥 Week of July 8th, 2024",
+      "subreddit": "ecommerce",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ShopifyeCommerce/comments/1dyjgt9/whats_new_in_ecommerce_week_of_july_8th_2024/",
+      "title": "What's new in e-commerce? 🔥 Week of July 8th, 2024",
+      "subreddit": "ShopifyeCommerce",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1oivjvm/claude_code_is_a_beast_tips_from_6_months_of/",
+      "title": "Claude Code is a Beast – Tips from 6 Months of Hardcore Use",
+      "subreddit": "ClaudeAI",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/lzjuf7/nft_madness_what_they_are_and_what_they_are_not/",
+      "title": "NFT Madness - What they are and what they are not. Why they're great, and why they suck.",
+      "subreddit": "CryptoCurrency",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Gold/comments/1p3cbdp/anyone_have_issues_trying_to_buy_scrap_off/",
+      "title": "Anyone have issues trying to buy scrap off Facebook marketplace?",
+      "subreddit": "Gold",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/quilting/comments/1no645g/sent_my_sewing_machine_in_for_service_and_came/",
+      "title": "Sent my sewing machine in for service and came back with this…",
+      "subreddit": "quilting",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/MetalsOnReddit/comments/1p3d1ir/anyone_have_issues_trying_to_buy_scrap_off/",
+      "title": "Anyone have issues trying to buy scrap off Facebook marketplace?",
+      "subreddit": "MetalsOnReddit",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/tf2/comments/2avtng/regarding_the_recent_marketplacetf_issues/",
+      "title": "Regarding the recent marketplace.tf issues",
+      "subreddit": "tf2",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/dragonage/comments/1odyqkl/dragon_age_veilguard_a_postmortem/",
+      "title": "Dragon Age: Veilguard - A Post-Mortem",
+      "subreddit": "dragonage",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Frugal/comments/ev82qh/extreme_frugal_tips/",
+      "title": "Extreme Frugal Tips",
+      "subreddit": "Frugal",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/RustConsole/comments/1n5riwz/marketplace_issue/",
+      "title": "Marketplace issue",
+      "subreddit": "RustConsole",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1oivs81/claude_code_is_a_beast_tips_from_6_months_of/",
+      "title": "Claude Code is a Beast – Tips from 6 Months of Hardcore Use",
+      "subreddit": "ClaudeCode",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/GME/comments/ngafr3/hedge_funds_stole_the_american_economy_created/",
+      "title": "Hedge Funds Stole the American Economy &amp; Created the Richest Man in the World",
+      "subreddit": "GME",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/151bmc0/wearing_power_armor_to_a_magic_school_39/",
+      "title": "Wearing Power Armor to a Magic School (39/?)",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/patientgamers/comments/n0mnf8/lets_get_mean_all_in_good_fun_my_personal_bottom/",
+      "title": "Let's get mean: All in good fun, my personal *bottom* ten games I've played in the last year.",
+      "subreddit": "patientgamers",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/1girn0z/wearing_power_armor_to_a_magic_school_103/",
+      "title": "Wearing Power Armor to a Magic School (103/?)",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/hearthstone/comments/3sj3a7/a_farewell_to_heartharena/",
+      "title": "A Farewell to HearthArena",
+      "subreddit": "hearthstone",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/EU5/comments/1mz68wr/infodump_from_generalist_gamings_qna_stream/",
+      "title": "Infodump from Generalist Gaming's QNA stream yesterday",
+      "subreddit": "EU5",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/stocks/comments/1521i5v/wsj_europeans_are_becoming_poorer_as_europe_has/",
+      "title": "WSJ - Europeans Are Becoming Poorer as Europe has tipped into Recession Early This Year. ‘Yes, We’re All Worse Off.’",
+      "subreddit": "stocks",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/wow/comments/5ei76r/statement_about_helya_situation_and_some_other/",
+      "title": "Statement about Helya situation and some other things",
+      "subreddit": "wow",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/spacex/comments/ap3bz1/estimating_the_mass_of_a_martian_propellant_plant/",
+      "title": "Estimating the mass of a Martian Propellant Plant for Starship - a detailed analysis",
+      "subreddit": "spacex",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Kaiserreich/comments/138salx/progress_report_135_ukraine/",
+      "title": "Progress Report 135: Ukraine",
+      "subreddit": "Kaiserreich",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/TNOmod/comments/pr6nxd/development_diary_xvi_toolbox_praxis/",
+      "title": "Development Diary XVI: Toolbox Praxis",
+      "subreddit": "TNOmod",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/jpo7h1/but_everyone_calls_their_planet_dirt/",
+      "title": "But Everyone Calls their Planet Dirt!",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/CalamityMod/comments/1pj28w7/my_personal_ranking_of_calamitys_addon_bosses/",
+      "title": "My personal ranking of Calamity's add-on bosses + in-depth explanation",
+      "subreddit": "CalamityMod",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DDintoGME/comments/ww1got/the_everything_squeeze_is_everything_short_i_have/",
+      "title": "THE EVERYTHING SQUEEZE. Is everything short? I have so many questions...",
+      "subreddit": "DDintoGME",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/OsakaTravel/comments/1pq9s3h/intense_anger_and_sadness/",
+      "title": "Intense anger and sadness",
+      "subreddit": "OsakaTravel",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/MonsterHunter/comments/1j5dvv4/this_isnt_new_to_wilds_but_it_isnt_just_hunters/",
+      "title": "This isn't new to Wilds, but it isn't just Hunters having more tools to deal with Monsters. Monsters have lost their tools for dealing with Hunters.",
+      "subreddit": "MonsterHunter",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AITAH/comments/1d8vguf/aita_for_accidentally_raising_my_voice_at_my_wife/",
+      "title": "AITA for accidentally raising my voice at my wife and throwing away her dishes and clothes because she won't wash them just buy new ones?",
+      "subreddit": "AITAH",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HollowKnight/comments/1nbqmn8/silksong_feels_like_a_world_on_its_own_and_not_a/",
+      "title": "Silksong feels like a world on its own and not a game made to cater to the player's needs",
+      "subreddit": "HollowKnight",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/baguio/comments/1ohl7z8/bawal_daw_itapon_tae_ng_aso_renters_with_pets_how/",
+      "title": "Bawal daw itapon tae ng aso? Renters with pets, how do you dispose of pet waste?",
+      "subreddit": "baguio",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Vent/comments/1jt970s/i_fucking_hate_him_so_much/",
+      "title": "I fucking hate him so much",
+      "subreddit": "Vent",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/shrinkflation/comments/1osamkk/apparently_shrinkflation_has_hit_my_waste/",
+      "title": "Apparently Shrinkflation has hit my waste disposal company",
+      "subreddit": "shrinkflation",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ontario/comments/1na327j/ontarios_backtooffice_push_economic_fantasy_meets/",
+      "title": "Ontario’s Back-to-Office Push: Economic Fantasy Meets Inflation Reality",
+      "subreddit": "ontario",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/kozhikode/comments/1qgidck/how_do_you_sortdispose_your_waste_at_home_help/",
+      "title": "how do you sort+dispose your waste at home? help needed!",
+      "subreddit": "kozhikode",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/nosleep/comments/scgrdb/down_the_drain/",
+      "title": "Down the Drain",
+      "subreddit": "nosleep",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Trivandrum/comments/1eh8qca/is_anyone_else_frustrated_with_harithakarmasenas/",
+      "title": "Is anyone else frustrated with Harithakarmasena's waste collection?",
+      "subreddit": "Trivandrum",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/TwoHotTakes/comments/1c02bd5/aita_for_wasting_money_on_disposable_diapers/",
+      "title": "AITA for wasting money on disposable diapers?",
+      "subreddit": "TwoHotTakes",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Seattle/comments/1os4mzc/if_you_do_this_i_just_wanna_chat/",
+      "title": "If you do this- I just wanna chat.",
+      "subreddit": "Seattle",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/texas/comments/1iqwhc7/rr_commission_says_ok_to_waste_disposal_in_east/",
+      "title": "RR Commission says OK to Waste Disposal in East Texas",
+      "subreddit": "texas",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Teachers/comments/tkeoz2/todays_professional_development/",
+      "title": "Today's \"Professional Development\"",
+      "subreddit": "Teachers",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1re3zgz/aita_for_confronting_my_girl_when_i_realized_she/",
+      "title": "AITA for confronting my girl when I realized she took credit for something she didn’t really do?",
+      "subreddit": "BestofRedditorUpdates",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/CharlotteDobreYouTube/comments/1puc3sy/aita_for_losing_my_marbles_after_opening_bfs/",
+      "title": "AITA for losing my marbles after opening bf's Christmas gift?",
+      "subreddit": "CharlotteDobreYouTube",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/wosgep/a_girls_stepsister_breaks_her_expensive/",
+      "title": "A Girls Stepsister Breaks Her Expensive Calligraphy Brush &amp; Refuses To Pay For It (AITA August 2, '22)",
+      "subreddit": "BestofRedditorUpdates",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Ultralight/comments/1jyyt9g/are_you_struggling_to_find_ways_to_cut_base/",
+      "title": "Are you struggling to find ways to cut base weight that fit your cost/benefit threshold?  A case for MYOG.",
+      "subreddit": "Ultralight",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DnD/comments/wptijw/talk_of_6th_edition_so_early_is_kinda_getting_in/",
+      "title": "Talk of 6th edition so early is kinda getting in my nerves",
+      "subreddit": "DnD",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/17wem7z/new_update_10_months_later_aita_for_blasting/",
+      "title": "New Update 10 months later: AITA for blasting Disney music?",
+      "subreddit": "BestofRedditorUpdates",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/GothFashion/comments/1ry22jk/i_am_genuinely_struggling_to_find_a_long_black/",
+      "title": "I am genuinely struggling to find a long black coat for my daily outfit that I like.",
+      "subreddit": "GothFashion",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/GothStyle/comments/1ry2dep/i_am_genuinely_struggling_hard_to_find_a_long/",
+      "title": "I am genuinely struggling hard to find a long coat I like that actually fits me.",
+      "subreddit": "GothStyle",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/alternativefashion/comments/1ry27yi/i_am_genuinely_struggling_to_find_a_long_coat_i/",
+      "title": "I am genuinely struggling to find a long coat I like to use as a daily wear.",
+      "subreddit": "alternativefashion",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/PakistaniTwenties/comments/1s6dql3/does_anyone_know_where_i_can_find_an_old_unwanted/",
+      "title": "Does anyone know where I can find an old, unwanted water tank and other materials for free or very cheap in Islamabad?",
+      "subreddit": "PakistaniTwenties",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AmItheAsshole/comments/nnyp1y/aita_for_refusing_to_purchase_a_baby_gift_for_my/",
+      "title": "AITA for refusing to purchase a baby gift for my cousin's second baby shower?",
+      "subreddit": "AmItheAsshole",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DestinyTheGame/comments/9kb1lg/let_us_try_to_fix_xûr_masterwork_cores_exotic/",
+      "title": "Let us try to fix Xûr, Masterwork cores, Exotic drops and more.. All at once.",
+      "subreddit": "DestinyTheGame",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/10j4gpk/aita_for_blasting_disney_music/",
+      "title": "AITA for blasting Disney music?",
+      "subreddit": "BestofRedditorUpdates",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HongKong/comments/1p9m8qt/hong_kong_just_proved_we_learned_nothing_from_120/",
+      "title": "Hong Kong Just Proved We Learned Nothing From 120 Years of Deadly Fires",
+      "subreddit": "HongKong",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/kintsugi/comments/1p8ai0c/struggling_to_source_authentic_kintsugi_materials/",
+      "title": "Struggling to source authentic kintsugi materials in Europe",
+      "subreddit": "kintsugi",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Games/comments/1lwnapi/krafton_statement_re_subnautica_2/",
+      "title": "KRAFTON statement re: Subnautica 2",
+      "subreddit": "Games",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/TooAfraidToAsk/comments/p2fsvo/why_the_fuck_are_we_still_catering_to/",
+      "title": "Why the FUCK are we still catering to billionaires and the \"elite\" class when we're on the cusp of a scorched earth and total societal collapse? The Titanic is sinking and we're serving cucumber sandwiches and playing Vivaldi to 1st class in front of the lifeboats we don't get to use, WHY is this OK",
+      "subreddit": "TooAfraidToAsk",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/CFB/comments/1qi024a/taking_a_look_back_at_the_announcement_thread_for/",
+      "title": "Taking a look back at the announcement thread for Indiana hiring Curt Cignetti",
+      "subreddit": "CFB",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ukpolitics/comments/1qithhj/a_call_to_unite_the_middle_powers/",
+      "title": "A Call to Unite The Middle Powers",
+      "subreddit": "ukpolitics",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/1ri8d3z/wearing_power_armor_to_a_magic_school_161/",
+      "title": "Wearing Power Armor to a Magic School (161/?)",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AmItheAsshole/comments/11uvyt7/aita_for_refusing_to_financially_help_my/",
+      "title": "AITA for refusing to financially help my estranged twin?",
+      "subreddit": "AmItheAsshole",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Genshin_Impact_Leaks/comments/ud1lpa/livestream_art_via_ubatcha/",
+      "title": "livestream art via UBatcha",
+      "subreddit": "Genshin_Impact_Leaks",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AITAH/comments/1eutoeg/update_aitah_for_not_telling_my_fiancée_that_my/",
+      "title": "UPDATE: AITAH for not telling my fiancée that my late partner was a man?",
+      "subreddit": "AITAH",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/atheism/comments/12kqu6n/as_an_exchristian_i_feel_like_every_christian/",
+      "title": "As an ex-Christian, I feel like every Christian should know we have very strong evidence that the Israelites were never slaves in Egypt and the Exodus never happened",
+      "subreddit": "atheism",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Fitness/comments/bze0g8/weight_loss_update_438_lbs_to_260_lbs_180_pounds/",
+      "title": "Weight Loss Update: 438 lbs to 260 lbs. ~ 180 pounds down in 1 year naturally with diet and exercise!",
+      "subreddit": "Fitness",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/OnThisDateInBahai/comments/1qiffx3/january_23_on_this_date_in_1924_shoghi_effendi/",
+      "title": "January 23. On this date in 1924, Shoghi Effendi wrote Queen Marie of Romania \"I am deeply touched by the splendid appreciation Your Majesty has graciously penned for the Bahá'í World, and wish to offer my heartfelt and abiding gratitude for this striking evidence of Your Majesty's sustained ...\"",
+      "subreddit": "OnThisDateInBahai",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/thehumblecrowbar/comments/1lmzqbm/i_wish_there_was_a_good_source_of_sustainable/",
+      "title": "“I wish there was a good source of sustainable energy”      The elusive perpetual motion machine:",
+      "subreddit": "thehumblecrowbar",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/selfhosted/comments/1pyisxm/opensourcing_a_selfhosted_ai_runtime_security/",
+      "title": "Open-sourcing a self-hosted AI runtime security tool… how do you keep it open and make it sustainable",
+      "subreddit": "selfhosted",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/sustainability/comments/1d2fdaa/i_wish_the_field_of_sustainability_was_more_than/",
+      "title": "I wish the field of Sustainability was more than just carbon emission calculations these days...",
+      "subreddit": "sustainability",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/SubredditDrama/comments/1n8aitp/we_need_a_new_plague_you_can_volunteer_to_be/",
+      "title": "\"We need a new plague, You can volunteer to be patient zero…\" Video shows couple with their 14 children who then go on to have a bunch more children in r/mademesmile...several natalism fights break out in the comments",
+      "subreddit": "SubredditDrama",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BeginnerWoodWorking/comments/1s3cgtz/a_benefit_of_buying_used_equipment/",
+      "title": "A Benefit of Buying Used Equipment",
+      "subreddit": "BeginnerWoodWorking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/NoMansSkyTheGame/comments/1hmbvoc/liquidators_redux_expedition_14_in_3_hours_full/",
+      "title": "Liquidators Redux Expedition 14 In 3 HOURS - Full Guide",
+      "subreddit": "NoMansSkyTheGame",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/f1eyb3/retreat_hell_episode_12/",
+      "title": "Retreat, Hell - Episode 12",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/UnresolvedMysteries/comments/fcmvmz/extensive_summary_regarding_the_disappearance_of/",
+      "title": "EXTENSIVE summary regarding the disappearance of the DeOrr Kunz missing person case",
+      "subreddit": "UnresolvedMysteries",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/woodworking/comments/1plok5y/my_wood_skills_are_about_to_ruin_christmas/",
+      "title": "My wood skills are about to ruin Christmas!",
+      "subreddit": "woodworking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/creepcast/comments/1n4y3ho/the_journal_of_an_unknown_soldier_us_navajo_war/",
+      "title": "The Journal of an Unknown Soldier, U.S. Navajo War, 1863",
+      "subreddit": "creepcast",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Keep_Track/comments/opdnql/lost_in_the_sauce_senate_republicans_block_delay/",
+      "title": "Lost in the Sauce: Senate Republicans block, delay, and oppose dozens of nominees",
+      "subreddit": "Keep_Track",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/suzerain/comments/1pt523a/rizia_31_the_greatest_guide_youll_ever_find/",
+      "title": "Rizia 3.1: The Great-est guide you'll ever find",
+      "subreddit": "suzerain",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/upu6yk/at_the_bottom_of_this_mine/",
+      "title": "At The Bottom Of This Mine",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/TheRaceTo10Million/comments/1qyumsl/my_dad_lent_me_600k_to_open_a_coffee_shop_i_used/",
+      "title": "My dad lent me 600k to open a coffee shop. I used it to trade stocks while searching for supplies and a location. I ended up doubling the money in a year and eventually scrapped the coffee shop business plan.",
+      "subreddit": "TheRaceTo10Million",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/york/comments/2fqkvb/where_to_buy_cheap_timber_in_york/",
+      "title": "Where to buy cheap timber in York?",
+      "subreddit": "york",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ndp/comments/1qihtfo/why_i_think_david_eby_keeps_proposing_the/",
+      "title": "Why I Think David Eby Keeps Proposing the Extraction of Our Resources to Foreign Corporations",
+      "subreddit": "ndp",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/suzerain/comments/1l1zu40/here_i_am_with_another_guide_and_this_time_how_to/",
+      "title": "Here I am with another guide! And this time: How to become Romus the Great while going to war with Pales!",
+      "subreddit": "suzerain",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Sauna/comments/1qocw6g/mineral_wool_insulation_australia/",
+      "title": "Mineral wool insulation Australia",
+      "subreddit": "Sauna",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/1bta2pe/hunter_or_huntress_chapter_186_christmas_come/",
+      "title": "Hunter or Huntress Chapter 186: Christmas Come Early",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Superstonk/comments/mtp8y1/the_banks_are_selling_government_bonds_to_the/",
+      "title": "The Banks Are Selling Government Bonds to the Hedgies - The Floor is 250 Million Part 1",
+      "subreddit": "Superstonk",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/talesfromtechsupport/comments/5609yr/14_year_old_computers_are_not_legal/",
+      "title": "14 Year Old Computers Are Not Legal",
+      "subreddit": "talesfromtechsupport",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/talesfromtechsupport/comments/7lkr8a/my_hand_has_computer_parts_in_it/",
+      "title": "\"My hand has computer parts in it\"",
+      "subreddit": "talesfromtechsupport",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/UnresolvedMysteries/comments/grjfnu/in_1992_jeremy_rolfs_and_heather_uffelman_were/",
+      "title": "In 1992, Jeremy Rolfs and Heather Uffelman Were Lured to a Motel to Sell Computer Equipment and Bludgeoned With a Hammer: Who Was the Mysterious \"Tom Johnson\"?",
+      "subreddit": "UnresolvedMysteries",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/computers/comments/1dvya5z/ive_got_an_old_office_computer_for_free_what/",
+      "title": "Ive got an old office computer for free, what should I do with it?",
+      "subreddit": "computers",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/homelab/comments/1q692y2/i_won_an_auction_for_what_i_thought_was_a_single/",
+      "title": "I won an auction for what I thought was a single PC, but no.",
+      "subreddit": "homelab",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/aviationmaintenance/comments/1rfr28d/a_38_years_old_man_sold_60000_fake_engine_parts/",
+      "title": "A 38 years old man sold 60,000 fake engine parts",
+      "subreddit": "aviationmaintenance",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/collapse/comments/lx2m0c/shortage_of_computer_parts_and_gaming_consoles_a/",
+      "title": "Shortage of computer parts and gaming consoles - A trend for the future? (Lesser availability of luxury goods for the common folk)",
+      "subreddit": "collapse",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AppleIndia/comments/1s2dn62/any_old_apple_computer_collectors_here/",
+      "title": "Any Old Apple computer collectors here?",
+      "subreddit": "AppleIndia",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Superstonk/comments/ptvaka/when_you_wish_upon_a_star_a_complete_guide_to/",
+      "title": "When you wish upon a star - a complete guide to Computershare",
+      "subreddit": "Superstonk",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AmItheAsshole/comments/1cv54er/aita_for_refusing_to_pay_for_birthday_presents/",
+      "title": "AITA for refusing to pay for birthday presents for my son that he can only use at my ex-wife's place?",
+      "subreddit": "AmItheAsshole",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/conspiracy/comments/1abvexg/computers_are_made_slower_on_purpose_to_sell_new/",
+      "title": "Computers are made slower on purpose to sell new hardware",
+      "subreddit": "conspiracy",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/tifu/comments/j6mrg9/tifu_by_realising_i_got_scammed_6_years_ago/",
+      "title": "TIFU by realising I got scammed 6 years ago",
+      "subreddit": "tifu",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AmItheAsshole/comments/jzuz57/aita_for_refusing_to_return_a_computer_i_bought/",
+      "title": "AITA for refusing to return a computer I bought after the store called and told me that I paid the wrong price for it?",
+      "subreddit": "AmItheAsshole",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/antiwork/comments/139r4pe/efficiency_experts_fire_wrong_guy/",
+      "title": "Efficiency experts fire wrong guy",
+      "subreddit": "antiwork",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/stocks/comments/1bt87cz/trump_media_shares_fall_sharply_after_company/",
+      "title": "Trump Media shares fall sharply after company reports net loss of $58 million in 2023",
+      "subreddit": "stocks",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/TechGhana/comments/1mtjawy/i_built_the_first_realtime_stock_alert_platform/",
+      "title": "🚀 I built the first real-time stock alert platform for the Ghana Stock Exchange (need feedback!) 🇬🇭📈",
+      "subreddit": "TechGhana",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/offmychest/comments/1hc3n18/i_turned_in_my_partner_to_the_police_after/",
+      "title": "I turned in my partner to the police after discovering his Reddit and X accounts. ",
+      "subreddit": "offmychest",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/factorio/comments/1qyh8ed/platform_construction_needs_reader_inter_platform/",
+      "title": "Platform construction needs reader + Inter Platform Logistics",
+      "subreddit": "factorio",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Superstonk/comments/tzbhsk/we_the_investors_petition_for_the_sec_to_address/",
+      "title": "We The Investors: Petition for the SEC to address the systemic issues caused by payment for order flow (PFOF) - 56k signatures and counting!",
+      "subreddit": "Superstonk",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/stocks/comments/mauium/best_stocks_for_the_fourth_industrial_revolution/",
+      "title": "Best stocks for the fourth industrial revolution",
+      "subreddit": "stocks",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/discexchange/comments/xmteiq/everything_you_need_to_know_about_rdiscexchange/",
+      "title": "Everything You Need to Know About r/DiscExchange",
+      "subreddit": "discexchange",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/studytips/comments/1p9pewf/working_chegg_unlocker_in_2025/",
+      "title": "Working Chegg Unlocker in 2025",
+      "subreddit": "studytips",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/SECFilingsAI/comments/1lvp0pd/pacific_sports_exchange_inc_quarterly_report/",
+      "title": "Pacific Sports Exchange Inc. Quarterly Report Released - What you need to know",
+      "subreddit": "SECFilingsAI",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HelloKittyIsland/comments/1pzq5ls/weekly_multiplayer_megathread_december_30_2025/",
+      "title": "Weekly Multiplayer Mega-Thread - December 30, 2025",
+      "subreddit": "HelloKittyIsland",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HelloKittyIsland/comments/1o0lr3v/weekly_multiplayer_megathread_october_07_2025/",
+      "title": "Weekly Multiplayer Mega-Thread - October 07, 2025",
+      "subreddit": "HelloKittyIsland",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HelloKittyIsland/comments/1nujwlx/weekly_multiplayer_megathread_september_30_2025/",
+      "title": "Weekly Multiplayer Mega-Thread - September 30, 2025",
+      "subreddit": "HelloKittyIsland",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HelloKittyIsland/comments/1qi9mz1/weekly_multiplayer_megathread_january_20_2026/",
+      "title": "Weekly Multiplayer Mega-Thread - January 20, 2026",
+      "subreddit": "HelloKittyIsland",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HelloKittyIsland/comments/1pu1p0u/weekly_multiplayer_megathread_december_23_2025/",
+      "title": "Weekly Multiplayer Mega-Thread - December 23, 2025",
+      "subreddit": "HelloKittyIsland",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HelloKittyIsland/comments/1j3i59t/weekly_multiplayer_megathread_march_04_2025/",
+      "title": "Weekly Multiplayer Mega-Thread - March 04, 2025",
+      "subreddit": "HelloKittyIsland",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Anticonsumption/comments/1kzn6ql/festivals_are_wasteful_rant/",
+      "title": "Festivals are WASTEFUL - Rant",
+      "subreddit": "Anticonsumption",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/povertyfinance/comments/a0uk6s/greetings_fellow_poors_i_wanted_to_compile_a_list/",
+      "title": "Greetings fellow poors. I wanted to compile a list of reddit resources I've found that can hopefully help at least someone.",
+      "subreddit": "povertyfinance",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AskElectronics/comments/amc9pa/trying_to_upcycle_an_old_laptop_lcd_screen/",
+      "title": "Trying to upcycle an old laptop LCD screen (B156HW02 v.5) into a second monitor - could use help in identifying a way to use a laptop's USB-C output to supply both screen data + power to the LCD (if possible!)",
+      "subreddit": "AskElectronics",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/femalefashionadvice/comments/7q0kzw/interested_in_making_your_own_clothes_pt_1/",
+      "title": "Interested in making your own clothes? Pt. 1",
+      "subreddit": "femalefashionadvice",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/anker/comments/1em81va/2024_anker_prime_lineup_is_here/",
+      "title": "2024 Anker Prime Lineup is Here!",
+      "subreddit": "anker",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1hk2dz2/the_overlooked_ai_future_a_return_to_local/",
+      "title": "The Overlooked AI Future: A Return to Local Economies",
+      "subreddit": "ArtificialInteligence",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/SBCGaming/comments/1kx9wnm/rg34xxsp_usbc_charging_experiment_and_results/",
+      "title": "RG34XXSP USB-C Charging Experiment and Results",
+      "subreddit": "SBCGaming",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/factorio/comments/1qvirmx/mass_producing_legendary_nuclear_rocket_fuel/",
+      "title": "Mass Producing Legendary Nuclear Rocket Fuel",
+      "subreddit": "factorio",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/factorio/comments/1lwior1/quality_is_just_not_clicking_for_me_any_tips_im/",
+      "title": "Quality is just not clicking for me. Any tips? I'm already farming asteroids for the pure legendary copper/iron, but planet specific material and trying to make whole supply chains for those are throwing me off. Specifically biter eggs, which appear to have a different % and can't be self cycled",
+      "subreddit": "factorio",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/investing/comments/1pt3td6/is_ai_demand_changing_the_memory_cycle_or_just/",
+      "title": "Is AI demand changing the memory cycle or just amplifying it",
+      "subreddit": "investing",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/CPGIndustry/comments/1rn7iw1/while_unilever_and_pg_scramble_to_reformulate/",
+      "title": "While Unilever and P&amp;G scramble to reformulate, niche CPG/FMCG brands are quietly locking in 5 advantages that won't exist in 18 months. Here's the breakdown 👇",
+      "subreddit": "CPGIndustry",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/KoreaNewsfeed/comments/1s2s462/iran_war_disrupts_lng_deals_but_spurs_new_demand/",
+      "title": "Iran war disrupts LNG deals but spurs new demand for Korean shipbuilders",
+      "subreddit": "KoreaNewsfeed",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/smallbusinessowner/comments/1rn7cda/the_raging_war_between_iran_and_the_usisrael_a/",
+      "title": "The Raging War Between Iran and the US/Israel? A VERY LUCRATIVE Opportunity for Organic Based Brands. Breakdown below 👇",
+      "subreddit": "smallbusinessowner",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/EverHint/comments/1rynuxs/everhint_stock_market_news_march_19_2026_evening/",
+      "title": "EverHint - Stock Market News — March 19, 2026 — Evening Update (last 9 hours, Pacific Time)",
+      "subreddit": "EverHint",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/NextInsurance/comments/1rwe48q/the_11_fastest_growing_small_businesses_of_2026/",
+      "title": "The 11 fastest growing small businesses of 2026",
+      "subreddit": "NextInsurance",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/burlington/comments/1kint17/an_open_letter_from_burlington_small_business/",
+      "title": "AN OPEN LETTER FROM BURLINGTON SMALL BUSINESS OWNERS signed by 123 downtown business owners.",
+      "subreddit": "burlington",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1mvlbqg/my_25f_fiance_30m_told_me_his_business_partner_is/",
+      "title": "My [25F] fiance [30M] told me his business partner is a priority over me because $",
+      "subreddit": "BestofRedditorUpdates",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/1ok4u32/if_you_could_start_a_business_that_reduces_waste/",
+      "title": "If you could start a business that reduces waste in your community, where would you start?",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/SubredditDrama/comments/1l09tcc/you_havent_heard_of_the_american_civil_war_have/",
+      "title": "\"You havent heard of the american civil war have you? When republicans fought for human rights and dems fought for the right to own humans..... awkward\" Trump supporters invade r/nottheonion to demand that people in the left be nicer to them",
+      "subreddit": "SubredditDrama",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/SubredditDrama/comments/1ijdr8d/rgenz_reacts_to_the_proposed_abolishment_of_the/",
+      "title": "R/Genz reacts to the proposed abolishment of the Department of Education",
+      "subreddit": "SubredditDrama",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Philippines/comments/1l57r8u/gambling_is_draining_the_ph_and_were_all_just/",
+      "title": "Gambling is draining the PH. And we’re all just watching it happen.",
+      "subreddit": "Philippines",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AiAutomations/comments/1rdy5i2/starting_a_small_ai_solutions_business_where_do_i/",
+      "title": "Starting a small AI solutions business – where do I begin?",
+      "subreddit": "AiAutomations",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/th61yf/ops_boss_tries_to_strongarm_op_into_cancelling/",
+      "title": "OP's boss tries to strongarm OP into cancelling his Christmas vacation, OP resigns, chaos ensues",
+      "subreddit": "BestofRedditorUpdates",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AiForSmallBusiness/comments/1rdy8kw/starting_a_small_ai_solutions_business_where_do_i/",
+      "title": "Starting a small AI solutions business – where do I begin?",
+      "subreddit": "AiForSmallBusiness",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1lj1d8w/should_i_leave_my_family_business_4_year_update/",
+      "title": "**should I leave my family business? + 4 year update**",
+      "subreddit": "BestofRedditorUpdates",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1gz9ksj/my_senior_engineer_interview_experiences/",
+      "title": "My Senior Engineer Interview Experiences",
+      "subreddit": "ExperiencedDevs",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1q5fs7f/watched_my_friend_spend_18_hours_per_month_doing/",
+      "title": "Watched my friend spend 18 hours per month doing something that should take 2 hours. Is this normal for small business owners?",
+      "subreddit": "SideProject",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/smallbusiness/comments/1pg28qr/business_owners_using_ai_tools_whats_actually/",
+      "title": "Business owners using AI tools — what's actually working and what's been a waste of money?",
+      "subreddit": "smallbusiness",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Businessideas/comments/1kxpbw0/reimagined_business_idea_for_eliminating_body/",
+      "title": "REIMAGINED BUSINESS IDEA FOR ELIMINATING BODY WASTE FROM SURGERIES",
+      "subreddit": "Businessideas",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AI_Application/comments/1qjsio1/my_team_spent_6_months_integrating_ai_into_our/",
+      "title": "My Team spent 6 months integrating AI into our small business. Here's what actually worked (and what was a waste of money)",
+      "subreddit": "AI_Application",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/1jmqylj/the_zero_waste_wedding_dress_i_made_to_elope_in/",
+      "title": "The zero waste wedding dress I made to elope in 🤍",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/crafts/comments/1omurmc/built_moanas_boat_pushcar_edition_for_my_toddlers/",
+      "title": "Built Moana’s boat (push-car edition) for my toddler’s Halloween costume",
+      "subreddit": "crafts",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/NintendoSwitch/comments/f6s2fn/2202020_animal_crossing_new_horizons_direct/",
+      "title": "2.20.2020 Animal Crossing: New Horizons Direct MegaThread",
+      "subreddit": "NintendoSwitch",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Birdfy/comments/1o46mzi/tiger_roost_birdfydiychallenge/",
+      "title": "Tiger Roost - BirdfyDiyChallenge",
+      "subreddit": "Birdfy",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/RCPlanes/comments/1mbx2fe/diy_material_questions/",
+      "title": "DIY Material questions...",
+      "subreddit": "RCPlanes",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DIY/comments/9szf6u/small_kitchen_remodel_modernfarmhouse_style_dont/",
+      "title": "Small Kitchen Remodel (Modern/Farmhouse Style, don't hate)",
+      "subreddit": "DIY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/askscience/comments/dtegb8/askscience_ama_series_hi_were_experts_from_the/",
+      "title": "AskScience AMA Series: Hi! We're experts from the National Institutes of Health, the National Toxicology Program, and the American Botanical Council studying the quality, safety, and effectiveness of botanical dietary supplements and essential oils. Ask us anything!",
+      "subreddit": "askscience",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DIY/comments/1l03f8w/1960s_cape_to_1920s_craftsman_living_room_edition/",
+      "title": "1960’s Cape to 1920’s Craftsman Living Room edition…",
+      "subreddit": "DIY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/somethingimade/comments/1joeqds/made_my_own_zero_waste_wedding_dress/",
+      "title": "Made my own zero waste wedding dress 💛",
+      "subreddit": "somethingimade",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AmateurRoomPorn/comments/1prhoiw/my_130yearold_timber_frame_bathroom_remodel/",
+      "title": "My 130-year-old timber frame bathroom remodel featuring backlit Onyx and Travertine. Germany.",
+      "subreddit": "AmateurRoomPorn",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/furniturerestoration/comments/1kh84vm/tips_on_steps_to_restore_this_table_chairs_seem/",
+      "title": "Tips on Steps to restore this table &amp; chairs? Seem to have been painted over diy style. Cushions easily removable. never DIYed myself but up for challenge. Came with new house, wanted to maybe remove paint with stripper but looking for advice since I've never done it/unsure of what materials to get",
+      "subreddit": "furniturerestoration",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/findfallacies/comments/1jx2i2z/claim_the_accessibility_of_online_tutorials_and/",
+      "title": "Claim: The accessibility of online tutorials and materials has made DIY projects easier to start, but it also presents challenges.",
+      "subreddit": "findfallacies",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/findfallacies/comments/1jwnezd/claim_environmental_impact_is_another_factor_to/",
+      "title": "Claim: Environmental impact is another factor to consider in DIY, as it often generates waste and sourcing sustainable materials can be challenging.",
+      "subreddit": "findfallacies",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/massachusetts/comments/1lqygp9/are_all_contractor_rates_insane_in_ma_or_am_i/",
+      "title": "Are all contractor rates insane in MA, or am I just getting ripped off?",
+      "subreddit": "massachusetts",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/RedecorHomeDesignGame/comments/1jgnhd8/weekend_challenge_the_diy_challenge/",
+      "title": "Weekend Challenge: The DIY Challenge",
+      "subreddit": "RedecorHomeDesignGame",
+      "key": false
+    }
+  ]
+}

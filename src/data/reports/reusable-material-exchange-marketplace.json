@@ -1,0 +1,1207 @@
+{
+  "idea_title": "Reusable Material Exchange Marketplace",
+  "problem_statement": "Individuals and businesses often discard valuable \"trash\" materials (e.g., used oil, timber scraps, old computer parts) that could be reused or repurposed, leading to unnecessary waste accumulation, environmental impact, and missed opportunities for cost savings or resource acquisition. There's a lack of an efficient, centralized platform to connect those looking to dispose of such materials with those who could utilize them.",
+  "proposed_solution": "A web-based marketplace platform where users can list \"useful trash\" materials they wish to sell or give away, and other users can browse, search, and purchase/acquire these materials. The platform would facilitate connections for items like used oil, timber remnants, old computer components, and other materials typically destined for landfill but possessing reuse potential.",
+  "target_audience": "Crafters, Upcyclers, & DIY Enthusiasts: Individuals seeking specific materials for creative projects, repairs, or hobbies (e.g., patio chair repair, woodworking practice). Small Businesses & Workshops: Those generating reusable waste or needing specific components/raw materials for their operations. Environmentally Conscious Individuals/Businesses: Actively seeking to reduce waste and participate in the circular economy. Beginner Woodworkers: Specifically looking for small, affordable pieces of hardwood for practice. IT Repair Shops/Individuals: Seeking spare parts for electronics.",
+  "executive_summary": "The \"Reusable Material Exchange Marketplace\" addresses a significant and intensely felt problem: the lack of an efficient, centralized platform to connect those disposing of valuable \"trash\" materials with those who can reuse them. While the market demand is exceptionally strong and the problem-solution fit is excellent, the ambition to cover a wide range of materials, including potentially hazardous ones, introduces substantial operational and regulatory complexities.",
+  "verdict": "MODERATE POTENTIAL",
+  "overall_score": 7.75,
+  "subreddits_count": 7,
+  "top_subreddits": [
+    "upcycling",
+    "ZeroWaste",
+    "woodworking",
+    "framework",
+    "sustainability"
+  ],
+  "signal_quality": "strong",
+  "pain_points": [
+    {
+      "rank": 1,
+      "title": "Difficulty in Sourcing Specific, Small Quantities of Materials",
+      "description": "Users, especially crafters, DIY enthusiasts, and hobbyists, struggle to find the exact type and amount of \"waste\" materials needed for projects or repairs.",
+      "evidence_strength": "strong",
+      "representative_quote": "The user is struggling to find suitable replacement material for a ripped patio chair bottom and doesn't know 'what kind of material or where to source.'",
+      "type": "Painkiller"
+    },
+    {
+      "rank": 2,
+      "title": "Lack of a Centralized & Efficient Marketplace / Fragmentation",
+      "description": "No single, specialized, and user-friendly platform exists to connect those disposing of reusable materials with those seeking them. Existing solutions are informal, too general, or too niche.",
+      "evidence_strength": "strong",
+      "representative_quote": "Lack of a centralized and efficient marketplace for reusable materials: Existing solutions are often informal... or general classifieds... which are not specialized enough.",
+      "type": "Painkiller"
+    },
+    {
+      "rank": 3,
+      "title": "Logistics & Transport Challenges",
+      "description": "Arranging transport for materials, especially bulky or specific items, is a significant barrier for both buyers and sellers, as integrated solutions are lacking.",
+      "evidence_strength": "moderate",
+      "representative_quote": "Recyclr users noted that transport is arranged between buyers and sellers, indicating a potential pain point. Many materials (like timber, used oil) can be bulky or require specific handling, making logistics a significant barrier...",
+      "type": "Painkiller"
+    },
+    {
+      "rank": 4,
+      "title": "Trust & Verification Issues",
+      "description": "Users lack confidence in the quality of materials or the legitimacy of transactions when dealing with unknown sources, highlighting a need for robust verification systems.",
+      "evidence_strength": "weak",
+      "representative_quote": "Users of Recyclr expressed a need for a system to ensure quality and trust, especially when dealing with materials from unknown sources.",
+      "type": "Painkiller"
+    },
+    {
+      "rank": 5,
+      "title": "Limited Scope (Material Categories & Geography) of Existing Solutions",
+      "description": "Existing specialized platforms are often too narrow in their material focus or geographical reach, limiting their utility for a broad range of users and materials.",
+      "evidence_strength": "weak",
+      "representative_quote": "Existing specialized platforms like Recyclr are often niche (e.g., only construction materials) or geographically restricted.",
+      "type": "Vitamin"
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Freecycle",
+      "description": "Network of local groups for giving away/getting items for free.",
+      "strengths": [
+        "Free exchange",
+        "community-driven"
+      ],
+      "weaknesses": [
+        "Not specialized for specific materials",
+        "informal",
+        "lacks quality assurance or specific material requests"
+      ],
+      "sentiment": "Mixed"
+    },
+    {
+      "name": "Recyclr",
+      "description": "B2B marketplace for second-hand construction materials in Belgium.",
+      "strengths": [
+        "Specialized for construction",
+        "positive environmental impact"
+      ],
+      "weaknesses": [
+        "B2B only",
+        "limited to construction materials",
+        "no integrated logistics",
+        "limited to Belgium",
+        "need for verification system"
+      ],
+      "sentiment": "Recommended"
+    },
+    {
+      "name": "Local Joineries/Businesses (scrap bins)",
+      "description": "Informal acquisition of offcuts/scrap directly from businesses.",
+      "strengths": [
+        "Affordability",
+        "direct access to materials"
+      ],
+      "weaknesses": [
+        "Informal",
+        "relies on luck",
+        "not scalable",
+        "time-consuming to find"
+      ],
+      "sentiment": "Mixed"
+    },
+    {
+      "name": "Online Auction Apps (e.g., Whatnot)",
+      "description": "General online auction platform.",
+      "strengths": [
+        "Can find various items"
+      ],
+      "weaknesses": [
+        "Unpredictable pricing",
+        "can foster consumerism",
+        "not specialized for waste materials"
+      ],
+      "sentiment": "Mixed"
+    },
+    {
+      "name": "Niche Online Stores",
+      "description": "Websites selling specific types of reusable or salvaged materials (e.g., architectural salvage, electronics parts).",
+      "strengths": [
+        "Provides specific materials"
+      ],
+      "weaknesses": [
+        "Fragmented",
+        "not centralized",
+        "limited stock/geographical reach"
+      ],
+      "sentiment": "Mixed"
+    }
+  ],
+  "differentiation_opportunities": [
+    {
+      "category": "Unmet need",
+      "gap": "No single platform effectively covers the wide range of materials (wood, electronics, fabric, oil, etc.) for both individuals and businesses.",
+      "evidence": "Users resort to fragmented solutions like Freecycle (too general), Recyclr (too niche), or informal local arrangements. The \"ReLoop\" app concept received \"overwhelming enthusiasm\" for its broad material scope.",
+      "how_to_exploit": "Build a platform with a comprehensive, well-structured taxonomy for diverse materials, allowing precise searching and filtering. This would serve as the \"one-stop-shop\" for all \"useful trash\" needs.",
+      "rating": "HIGH"
+    },
+    {
+      "category": "Common weakness",
+      "gap": "No competitor offers a robust, integrated solution for transporting both small, specific items and bulky materials. Recyclr users explicitly noted the lack of integrated transport as a pain point.",
+      "evidence": "Many materials (like timber, used oil) can be bulky or require specific handling, making logistics a significant barrier for individuals and small businesses.",
+      "how_to_exploit": "Offer tiered logistics options, from local pickup/drop-off coordination to partnerships with specialized carriers for larger or more complex materials. This removes a major barrier for users.",
+      "rating": "HIGH"
+    },
+    {
+      "category": "Unmet need",
+      "gap": "While Recyclr users *request* this, it's not a stated feature of any existing solution for the broad \"useful trash\" category. Users need confidence in material quality and transaction legitimacy.",
+      "evidence": "Users of Recyclr expressed a need for a system to ensure quality and trust, especially when dealing with materials from unknown sources.",
+      "how_to_exploit": "Implement features like mandatory detailed descriptions and photos, user ratings/reviews, and potentially third-party verification for certain materials or high-value transactions.",
+      "rating": "MEDIUM"
+    },
+    {
+      "category": "Unmet need",
+      "gap": "This is an explicitly stated unmet need where buyers can post specific needs, rather than just browsing existing listings.",
+      "evidence": "Users struggling to find specific materials (e.g., patio chair fabric, small hardwood pieces) highlight this need.",
+      "how_to_exploit": "Allow buyers to post \"wanted\" ads for specific materials, quantities, and conditions, enabling sellers to proactively respond if they have a match.",
+      "rating": "MEDIUM"
+    },
+    {
+      "category": "Underserved segment",
+      "gap": "Existing solutions tend to cater either to free/informal exchange (hobbyists via Freecycle) or B2B (Recyclr), but not a unified platform that serves both effectively. Hobbyists need small quantities, while small businesses need reliable sourcing/disposal.",
+      "evidence": "\"A beginner woodworker is looking for small, affordable pieces of hardwood (offcuts/scraps) for practice...\" (r/woodworking). The overall problem statement mentions both individuals and small businesses.",
+      "how_to_exploit": "Design the platform with features that cater to both, such as flexible quantity listings, clear pricing models, and user profiles that distinguish between individual and business accounts.",
+      "rating": "HIGH"
+    }
+  ],
+  "market_position_summary": "The market for reusable material exchange is fragmented and inefficient, with no clear market leader for the broad category of \"useful trash.\" While there are many indirect competitors (general classifieds, niche stores), they fail to provide a centralized, specialized solution. New competitors are emerging, such as Recyclr, indicating a growing space with room for new entrants. This fragmentation and the emergence of new players signal a market ripe for disruption by a comprehensive and well-executed platform.",
+  "dimension_scores": [
+    {
+      "name": "Problem-Solution Fit",
+      "score": 9.0,
+      "weight_pct": 25,
+      "weighted_score": 2.25,
+      "justification": "The research provides clear and strong evidence of multiple, high-intensity pain points that the proposed solution directly addresses. Users struggle with \"sourcing specific materials (small quantities & variety),\" face a \"lack of a centralized & efficient marketplace / fragmentation,\" and encounter \"logistics & transport challenges.\" The proposed web-based marketplace directly aims to solve the centralization and sourcing issues. The \"overwhelming enthusiasm\" for the \"ReLoop\" app concept, which is very similar, further validates this fit. The solution is not peripheral; it targets the core inefficiencies and frustrations identified."
+    },
+    {
+      "name": "Market Demand",
+      "score": 9.0,
+      "weight_pct": 20,
+      "weighted_score": 1.8,
+      "justification": "Demand indicators are exceptionally strong. There's \"overwhelming enthusiasm\" for similar concepts (ReLoop app), \"strong desire for such a platform,\" and active seeking of solutions for specific material needs (patio chair fabric, hardwood offcuts, Framework screen). Large, active communities in r/upcycling (268k), r/ZeroWaste (1.1M), and r/sustainability (897k) demonstrate a massive and growing audience interested in material reuse and circular economy principles. Users are actively \"leaving or bypassing general classifieds and informal methods due to their inefficiency,\" signaling a pressing need for a better solution."
+    },
+    {
+      "name": "Competitive Advantage",
+      "score": 8.0,
+      "weight_pct": 20,
+      "weighted_score": 1.6,
+      "justification": "The market analysis clearly identifies significant \"GAPS\" and \"OPPORTUNITIES\" where existing solutions are weak or non-existent. Competitors like Freecycle are too general, Recyclr is too niche (B2B construction in Belgium), and local scrap bins/auction apps are informal or inefficient. The proposed idea offers a \"centralized, broad marketplace for diverse 'useful trash'\" for both individuals and small businesses, with the potential to integrate \"flexible logistics\" and a \"robust trust and verification system.\" This comprehensive approach provides a strong differentiator against the fragmented current landscape."
+    },
+    {
+      "name": "Feasibility & Reality Check",
+      "score": 6.0,
+      "weight_pct": 15,
+      "weighted_score": 0.9,
+      "justification": "While a web-based marketplace itself is straightforward to build with existing technology, the *operational* feasibility for the *specific types of materials* mentioned presents significant challenges. Logistics: Integrating \"flexible logistics for diverse material types and quantities\" (e.g., used oil, timber offcuts, computer parts) is a major hurdle. This involves varying transport requirements, safety protocols, and costs that are complex to standardize and scale. This was identified as a \"significant barrier\" and an \"unmet need.\" Regulatory Compliance: Handling materials like \"used oil\" and \"computer parts\" (which can contain hazardous components) involves complex and varying environmental regulations, licensing, and disposal requirements across different regions. This is a substantial operational and legal challenge. Quality Control & Verification: Ensuring the quality and accurate description of \"useful trash\" from diverse sellers (individuals, small businesses) is difficult and crucial for building trust, as noted by Recyclr users' desire for a \"verification system.\" These challenges are not insurmountable but require significant resources, expertise, and operational complexity, pushing the score down from a \"straightforward\" build."
+    },
+    {
+      "name": "Market Saturation",
+      "score": 7.0,
+      "weight_pct": 10,
+      "weighted_score": 0.7,
+      "justification": "The market is \"fragmented and inefficient\" with \"no dominant, comprehensive player\" for the broad category of \"useful trash.\" While there are many indirect competitors (general classifieds, niche stores), they fail to provide a centralized, specialized solution. The emergence of new, niche competitors like Recyclr indicates a growing space with room for new entrants, rather than a saturated market dominated by entrenched incumbents. The barrier to entry for a *comprehensive* solution that addresses logistics and trust is moderate, which helps prevent immediate oversaturation."
+    },
+    {
+      "name": "Risk Assessment",
+      "score": 5.0,
+      "weight_pct": 10,
+      "weighted_score": 0.5,
+      "justification": "The biggest risks are operational and regulatory. Logistics & Fulfillment (HIGH RISK): As highlighted in feasibility, managing the transport and handling of highly diverse materials (from small electronics to bulky timber to potentially hazardous used oil) is incredibly complex, costly, and prone to failure if not executed perfectly. This is the #1 operational challenge. Regulatory Compliance (HIGH RISK): Dealing with materials that fall under environmental regulations (e.g., used oil, e-waste) introduces significant legal and compliance risks that vary by jurisdiction and can lead to heavy fines or operational shutdowns if mishandled. Quality Control & Trust (MODERATE RISK): Building and maintaining trust in material quality and seller reliability will be critical for user adoption and retention. Network Effect / Liquidity (MODERATE RISK): Like all marketplaces, achieving critical mass of both buyers and sellers in specific geographic areas for specific materials is a challenge. These are not 'manageable threats' without significant upfront investment and expertise."
+    }
+  ],
+  "risks": [
+    {
+      "title": "Logistics and Regulatory Compliance for Diverse Materials",
+      "description": "The challenge of managing the transport, handling, and legal requirements for a wide array of materials, from bulky timber to potentially hazardous used oil and e-waste.",
+      "likelihood": "High",
+      "mitigation": "Implement a phased rollout, starting with less complex materials and geographies. Explore strategic partnerships with specialized logistics providers and waste management companies. Provide clear, localized regulatory guidance within the platform."
+    },
+    {
+      "title": "Achieving Critical Mass and Liquidity (Network Effect)",
+      "description": "Like all marketplaces, the platform needs a sufficient number of both buyers and sellers in specific geographic areas for transactions to occur regularly. Without this, users will churn.",
+      "likelihood": "Medium",
+      "mitigation": "Focus initial efforts on specific, high-demand material categories and dense urban areas. Implement strong marketing to attract early adopters. Leverage \"Material Request\" functionality to stimulate demand."
+    },
+    {
+      "title": "Quality Control and Building Trust",
+      "description": "Ensuring that materials listed are accurately described and of acceptable quality, and that transactions are legitimate, is crucial for user confidence and platform reputation.",
+      "likelihood": "Medium",
+      "mitigation": "Implement robust trust features: mandatory detailed descriptions and photos, user rating/review systems, and clear dispute resolution processes. Consider escrow services for transactions."
+    }
+  ],
+  "pivots": [
+    {
+      "title": "Phased Rollout by Material Type and Geography",
+      "description": "Instead of launching with all materials (e.g., used oil, timber, computer parts) and a broad geographic scope, start with 1-2 less complex material types (e.g., timber offcuts, certain fabrics, or non-hazardous craft materials) in a limited geographic area (e.g., a single city or region).",
+      "rationale": "This allows for iterative learning and refinement of logistics, quality control, and user experience before tackling more complex, regulated, or bulky materials. This directly addresses the #1 risk."
+    },
+    {
+      "title": "Strategic Partnerships for Logistics",
+      "description": "Trying to build an entire logistics network from scratch for diverse materials is prohibitively complex and expensive.",
+      "rationale": "Partnering with existing specialized logistics providers (e.g., local waste haulers for specific materials, timber merchants for wood, electronics recyclers for e-waste) can significantly de-risk the operational challenge and leverage existing infrastructure and expertise. This directly mitigates the #1 risk."
+    },
+    {
+      "title": "Robust Trust & Verification System with \"Material Request\" Functionality",
+      "description": "Building trust is paramount. Implement features like mandatory photo uploads, detailed material descriptions, seller/buyer rating systems, and potentially even third-party verification options for higher-value or more sensitive materials.",
+      "rationale": "Building trust is paramount. Implement features like mandatory photo uploads, detailed material descriptions, seller/buyer rating systems, and potentially even third-party verification options for higher-value or more sensitive materials. Additionally, a 'Material Request' feature, where buyers can post specific needs, directly addresses an identified unmet need and enhances the marketplace's utility by stimulating supply based on demand."
+    },
+    {
+      "title": "Clear Regulatory Guidance & Education",
+      "description": "Handling \"useful trash\" often involves navigating local waste and recycling regulations.",
+      "rationale": "Providing clear, localized information on regulatory requirements for specific materials, or integrating tools that help users understand and comply with local laws, can be a significant value-add. This educates users, reduces their risk, and positions the platform as a responsible facilitator."
+    }
+  ],
+  "use_cases": [
+    {
+      "title": "The Hobbyist's Hardwood Hunt",
+      "target_audience": "Beginner woodworkers, crafters, and DIY enthusiasts.",
+      "problem_solved": "Difficulty in sourcing small, affordable pieces of hardwood offcuts for practice or small projects, as large timber investments are too costly. (Evidenced by r/woodworking thread: \"(UK) Where to busy small pieces of hardwood for practicing techniques?\")",
+      "competitive_advantage": "The platform would connect these individuals with local joineries, carpenters, or other woodworkers who have valuable offcuts they would otherwise discard, providing an affordable and convenient source.",
+      "priority": "Medium"
+    },
+    {
+      "title": "The Upcycler's Fabric Fix",
+      "target_audience": "Upcyclers, repair enthusiasts, and individuals needing specific fabric types for repairs or small projects.",
+      "problem_solved": "Struggling to find suitable replacement material for items like ripped patio chairs, not knowing \"what kind of material or where to source.\" (Evidenced by r/upcycling thread: \"Suggestions to fix patio chair\")",
+      "competitive_advantage": "The marketplace would allow users to search for specific fabric types, patterns, or sizes from individuals or small businesses with surplus materials, offering a targeted solution beyond general classifieds.",
+      "priority": "Medium"
+    },
+    {
+      "title": "The Repair Shop's Component Quest",
+      "target_audience": "Small IT repair shops, electronics hobbyists, and individuals needing specific spare parts.",
+      "problem_solved": "Challenges in obtaining specific replacement parts for electronics due to stock issues, geographical limitations, or the difficulty of finding individual components. (Evidenced by r/framework thread: \"US warehouse parts availability?\")",
+      "competitive_advantage": "The platform could facilitate the exchange of functional used components from individuals upgrading devices or from repair shops with salvaged parts, providing a more accessible and sustainable sourcing channel.",
+      "priority": "Medium"
+    }
+  ],
+  "next_steps": [
+    "Conduct In-Depth Regulatory Research: Before building, thoroughly research the specific regulations for handling and transporting \"used oil\" and \"computer parts\" in your target launch region. This will inform the feasibility and scope of including these materials.",
+    "Validate Initial Material Focus: Engage directly with communities like r/upcycling and r/woodworking to confirm the highest-demand, lowest-complexity material categories for an MVP. Focus on 1-2 types that have fewer regulatory hurdles and simpler logistics.",
+    "Map Local Logistics Partners: Identify potential local logistics partners (e.g., small courier services, specialized waste haulers, local moving companies) in your target launch city/region who could handle the chosen initial material types.",
+    "Develop MVP Scope: Based on the highest-priority pain points (sourcing specific materials, lack of centralization) and the chosen initial material focus, define a lean MVP that includes core listing/browsing, user profiles, and a basic messaging system. Prioritize the \"Material Request\" feature.",
+    "Engage with Circular Economy Initiatives: Connect with local and national circular economy organizations. They can provide valuable insights, potential partnerships, and help with community building and user acquisition."
+  ],
+  "sources": [
+    {
+      "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1p589bz/aita_for_secretly_paying_off_my_girlfriends_debt/",
+      "title": "AITA for secretly paying off my girlfriends debt?",
+      "subreddit": "BestofRedditorUpdates",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1juj4av/new_update_aita_for_refusing_to_help_a_friend_who/",
+      "title": "[New Update]: AITA for refusing to help a friend who didn’t invite me to their wedding?",
+      "subreddit": "BestofRedditorUpdates",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/CharlotteDobreYouTube/comments/1puc3sy/aita_for_losing_my_marbles_after_opening_bfs/",
+      "title": "AITA for losing my marbles after opening bf's Christmas gift?",
+      "subreddit": "CharlotteDobreYouTube",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BORUpdates/comments/1rh9u4w/my_bf_and_roommate_planned_a_surprise_that_turned/",
+      "title": "My Bf and roommate planned a \"surprise” that turned out to be baby supplies",
+      "subreddit": "BORUpdates",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/SubredditDrama/comments/1nxje0q/americans_genuiely_believing_that_they_have_any/",
+      "title": "\"Americans genuiely believing that they have any moral highground over Saudi Arabia, will never not be funny.\" r/Comedy continues its roast of comedians performing in Saudi Arabia, much to the chagrin of some hecklers",
+      "subreddit": "SubredditDrama",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/SubredditDrama/comments/1n0h63j/multiple_indian_subreddits_discuss_a_recent_case/",
+      "title": "Multiple Indian subreddits discuss a recent case of a man murdering his wife over money: locked threads, \"bitchass women\", deleted comments, mods crying misandry",
+      "subreddit": "SubredditDrama",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/wnba/comments/1cu5fmz/do_the_fever_have_a_coaching_problem_video/",
+      "title": "Do the Fever have a coaching problem? Video material inside with examples and compared to other teams so far",
+      "subreddit": "wnba",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/1k98un8/wearing_power_armor_to_a_magic_school_125/",
+      "title": "Wearing Power Armor to a Magic School (125/?)",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ProRevenge/comments/stpkoa/tried_to_throw_me_under_the_proverbial_bus_ran/",
+      "title": "Tried to throw me under the proverbial bus, ran herself over.",
+      "subreddit": "ProRevenge",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/aliens/comments/18cgurv/i_have_secondhand_knowledge/",
+      "title": "I have secondhand knowledge",
+      "subreddit": "aliens",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/FanTheories/comments/cmb746/hagrid_is_a_death_eater/",
+      "title": "Hagrid is a Death Eater",
+      "subreddit": "FanTheories",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1e8dna5/aita_for_refusing_to_help_a_friend_who_didnt/",
+      "title": "AITA for refusing to help a friend who didn’t invite me to their wedding?",
+      "subreddit": "BestofRedditorUpdates",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/19c80jl/wearing_power_armor_to_a_magic_school_63/",
+      "title": "Wearing Power Armor to a Magic School (63/?)",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Superstonk/comments/rli6fd/twilight_of_kareninvestor_relations_50text_of/",
+      "title": "TWILIGHT OF KAREN...................Investor Relations 50..............text of Defendant's Response to Motion to Expedite included",
+      "subreddit": "Superstonk",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ProRevenge/comments/mtbmgu/officer_gets_a_taste_of_his_own_medicine_and_then/",
+      "title": "Officer gets a taste of his own medicine and then some",
+      "subreddit": "ProRevenge",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DIYUK/comments/1bfx8nt/i_soundproofed_my_party_wall_it_worked_perfectly/",
+      "title": "I soundproofed my party wall - it worked perfectly!",
+      "subreddit": "DIYUK",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/pcmods/comments/1my7qlt/diy_wall_mounted_pc_on_a_100_budget_with_aio/",
+      "title": "DIY wall mounted PC on a £100 budget with AIO",
+      "subreddit": "pcmods",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/woodworking/comments/1j3ymzh/uk_where_to_busy_small_pieces_of_hardwood_for/",
+      "title": "(UK) Where to busy small pieces of hardwood for practicing techniques?",
+      "subreddit": "woodworking",
+      "key": true
+    },
+    {
+      "url": "https://www.reddit.com/r/AusRenovation/comments/1rlxp8o/black_spots_all_over_my_newly_laid_deck/",
+      "title": "Black spots all over my newly laid deck",
+      "subreddit": "AusRenovation",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Scrollsaw/comments/1k5e8f7/online_sites_in_eu_selling_wood_for_scroll_saw/",
+      "title": "Online sites in EU selling wood for scroll saw projects",
+      "subreddit": "Scrollsaw",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/forestry/comments/1dhoowr/how_to_sell_timber/",
+      "title": "How to sell timber",
+      "subreddit": "forestry",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/minnesotaunited/comments/1rroqfw/rebel_loon_scarf_preorder_link/",
+      "title": "Rebel Loon scarf pre-order (link)",
+      "subreddit": "minnesotaunited",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/SilverDegenClub/comments/1dw295h/psa_folks_who_sell_mining_claims_online_seem_to/",
+      "title": "PSA: Folks who sell mining claims online seem to lie even more often than average real estate agents...",
+      "subreddit": "SilverDegenClub",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Embroidery/comments/fkzxxv/how_to_learn_embroidery_social_isolation_edition/",
+      "title": "How to Learn Embroidery: Social Isolation Edition",
+      "subreddit": "Embroidery",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AmItheAsshole/comments/1ay2ws2/aita_for_tearing_down_my_grandmothers_house/",
+      "title": "AITA for tearing down my grandmother’s house leaving her  and my aunt homeless?",
+      "subreddit": "AmItheAsshole",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/india/comments/a8ghfm/now_that_online_privacy_is_at_stake_i_encourage/",
+      "title": "Now that online privacy is at stake , I encourage people to use these opensource tools considering the online habits of most indian users.",
+      "subreddit": "india",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/nosleep/comments/e8jwmy/the_trees_in_my_town_have_bodies_in_them/",
+      "title": "The Trees in My Town Have Bodies in Them.",
+      "subreddit": "nosleep",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AusFemaleFashion/comments/1ovp64q/country_road_to_expand_beyond_its_own_brands_in/",
+      "title": "\" Country Road to expand beyond its own brands in biggest pivot yet \"",
+      "subreddit": "AusFemaleFashion",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/timbers/comments/4awkrx/psa_rtimbers_wiki_subreddit_rules_state_feel_free/",
+      "title": "PSA: r/timbers Wiki Subreddit Rules state: \"Feel free to give away tickets here, but please don't sell tickets here.\"",
+      "subreddit": "timbers",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/LanternDie/comments/16pghco/the_honey_man_told_me_the_lanterflies_are/",
+      "title": "The honey man told me the Lanterflies are affecting his honey so he started selling the 'honeydew' - thoughts?",
+      "subreddit": "LanternDie",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/TheFireRisesMod/comments/1roafo2/postcatharsis_map/",
+      "title": "Post-Catharsis Map",
+      "subreddit": "TheFireRisesMod",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Superstonk/comments/1qno9pw/final_stop_gamestop_the_jig_is_up_michael_j/",
+      "title": "Final Stop GameStop: The Jig Is Up - Michael J Burry's 2nd GME Post",
+      "subreddit": "Superstonk",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/NoMansSkyTheGame/comments/1k71tmi/severe_death_loop_greifers_notice_for_all/",
+      "title": "SEVERE DEATH LOOP GREIFERS NOTICE FOR ALL",
+      "subreddit": "NoMansSkyTheGame",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/1kv44as/sexy_space_babes_mechs_maidens_and_macaroons/",
+      "title": "Sexy Space Babes - Mechs, Maidens and Macaroons: Chapter Six",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/gxgk4s/first_contact_total_war_part_202/",
+      "title": "First Contact - TOTAL WAR - Part 202",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/steammachine/comments/1r8kjir/dont_wait_just_build_your_own_my_diy_steam/",
+      "title": "Don't Wait. Just Build Your Own. (My DIY Steam Machine Story)",
+      "subreddit": "steammachine",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/discordhelp/comments/1og8cgn/shayden_studios_closed_beta_discordgoogle_account/",
+      "title": "Shayden Studios Closed Beta Discord/Google Account HACKERS",
+      "subreddit": "discordhelp",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/NatureofPredators/comments/1hwfnju/wayward_odyssey_part_24/",
+      "title": "Wayward Odyssey [Part 24]",
+      "subreddit": "NatureofPredators",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/1nvjyuq/oocs_into_a_wider_galaxy_part_464/",
+      "title": "OOCS, Into A Wider Galaxy, Part 464",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/spacex/comments/6isph2/welcome_to_the_rspacex_bulgariasat1_official/",
+      "title": "Welcome to the r/SpaceX BulgariaSat-1 Official Launch Discussion &amp; Updates Thread! [Take 2]",
+      "subreddit": "spacex",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ChatGPT/comments/16gtl3i/figured_out_how_to_make_infographics_w_midjourney/",
+      "title": "Figured out how to make Infographics w/ Midjourney + ChatGPT, WITHOUT fake-AI-text (+18,500 Infographics Templates for All industries)",
+      "subreddit": "ChatGPT",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/framework/comments/1o82ni0/my_framework_16_has_paid_for_itself/",
+      "title": "My Framework 16 has paid for itself",
+      "subreddit": "framework",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/kpopthoughts/comments/wk7oq9/the_narrative_behind_getting_rid_of_physical/",
+      "title": "The Narrative behind getting rid of Physical Albums for Digital Alternatives is lowkey Green-washing.",
+      "subreddit": "kpopthoughts",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/talesfromtechsupport/comments/11wvi1c/not_everyone_has_the_knack_for_it/",
+      "title": "Not everyone has the knack for it",
+      "subreddit": "talesfromtechsupport",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/truezelda/comments/16rvc8w/totk_gripes_from_someone_who_enjoyed_botw/",
+      "title": "[TOTK] Gripes from someone who enjoyed BOTW",
+      "subreddit": "truezelda",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/1qt8qcq/wearing_power_armor_to_a_magic_school_158/",
+      "title": "Wearing Power Armor to a Magic School (158/?)",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DestinyTheGame/comments/lscomx/destiny_2021_update_the_road_to_the_witch_queen/",
+      "title": "Destiny 2021 Update: The Road to The Witch Queen",
+      "subreddit": "DestinyTheGame",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DestinyTheGame/comments/1l2qil2/full_breakdown_of_early_edge_of_fate_gameplay/",
+      "title": "Full Breakdown of early Edge of Fate gameplay",
+      "subreddit": "DestinyTheGame",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Epstein/comments/1rgmvnf/the_dynasty_how_jeffrey_epstein_became_the/",
+      "title": "THE DYNASTY: How Jeffrey Epstein Became the Rothschilds' Crisis Manager, Deal Broker, and Family Therapist. 108 documents. 68 EFTA citations. A contract with no deliverables, a crisis with no solution, and a friendship nobody wanted you to see.",
+      "subreddit": "Epstein",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/UFOs/comments/1fl2024/are_we_living_the_threebody_problem_something_big/",
+      "title": "Are We Living The Three-Body Problem? Something Big Is on the Horizon (And I Swear, It's Not Just My Ego)",
+      "subreddit": "UFOs",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DestinyTheGame/comments/cx3lyb/seasons_in_destiny_2s_third_year/",
+      "title": "Seasons in Destiny 2's Third Year",
+      "subreddit": "DestinyTheGame",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BornWeakBuiltStrong/comments/1rqu7hy/find_a_purpose_to_live/",
+      "title": "Find a purpose to live",
+      "subreddit": "BornWeakBuiltStrong",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/1fhhha0/wearing_power_armor_to_a_magic_school_97/",
+      "title": "Wearing Power Armor to a Magic School (97/?)",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Superstonk/comments/u9sfa0/1year_later_the_everything_short_mortgage_edition/",
+      "title": "1-Year later... The EVERYTHING Short - Mortgage Edition",
+      "subreddit": "Superstonk",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/SWORDS/comments/1rk0fls/swords_were_not_rarely_used_in_battle/",
+      "title": "Swords Were Not Rarely Used in Battle",
+      "subreddit": "SWORDS",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DestinyTheGame/comments/dbvwpa/destiny_2_update_2601/",
+      "title": "Destiny 2 Update 2.6.0.1",
+      "subreddit": "DestinyTheGame",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/aliens/comments/1fl2174/are_we_living_the_threebody_problem_something_big/",
+      "title": "Are We Living The Three-Body Problem? Something Big Is on the Horizon (And I Swear, It's Not Just My Ego)",
+      "subreddit": "aliens",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/amcstock/comments/oxgnfj/a_cyber_security_professionals_input_on_say/",
+      "title": "A Cyber Security Professional's input on Say Technologies, Plaid, and the AMC Earnings Retail Investor Q&amp;A / Vote count",
+      "subreddit": "amcstock",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/LearnJapanese/comments/sedr0m/how_i_got_180180_on_n1_in_85_months/",
+      "title": "How I got 180/180 on N1 in ~8.5 Months!",
+      "subreddit": "LearnJapanese",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AstralProjection/comments/1lv8mu1/astral_self_defense_everything_you_should_expect/",
+      "title": "Astral self defense - Everything you should expect, entities and 12 years of experience",
+      "subreddit": "AstralProjection",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1miebkz/i_carved_this_hair_fork_from_ethically_sourced/",
+      "title": "I carved this hair fork from ethically sourced antler - giving natural material a second life 🦌♻️",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/vvrnmp/tiny_house_build_with_50_upcycled_materials_door/",
+      "title": "Tiny house build with 50% upcycled materials. Door, windows, trim, countertops, flooring, lights, furniture, all built from salvage, scrap piles, and thrift stores. The rest of the materials were sourced locally (for the most part)",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/luqr7c/upcycled_custom_locally_sourced_and_thrifted/",
+      "title": "Upcycled, custom, locally sourced, and thrifted materials. 🕳🎱",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1rodz3z/suggestions_to_fix_patio_chair/",
+      "title": "Suggestions to fix patio chair",
+      "subreddit": "upcycling",
+      "key": true
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1pos750/a_cat_buffet/",
+      "title": "A cat buffet!",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1qut6s0/exploring_how_online_auctions_could_support/",
+      "title": "Exploring how online auctions could support upcycling projects",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1i2j92o/came_across_an_upcycling_craft_book_from_the_50s/",
+      "title": "Came across an upcycling craft book from the 50s with TONS of great ideas! (share link in post)",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1nbz0zd/reloop_new_recycling_marketplace_app/",
+      "title": "ReLoop - new Recycling Marketplace App",
+      "subreddit": "upcycling",
+      "key": true
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1okyxix/exploring_how_online_auctions_could_support/",
+      "title": "Exploring how online auctions could support upcycling projects",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1nxyfw8/recycled_and_reused_construction_materials/",
+      "title": "Recycled and Reused construction materials",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/jv4xpf/zero_waste_challenge_series_our_third_week/",
+      "title": "Zero Waste Challenge Series - Our Third Week!",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/1hajwx6/the_low_hanging_fruit_of_zero_waste/",
+      "title": "THe low hanging fruit of zero waste",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/jmrrwr/zero_waste_challenge_series_our_first_week/",
+      "title": "Zero Waste Challenge Series - Our First Week!",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/jqvn3s/zero_waste_challenge_series_our_second_week/",
+      "title": "Zero Waste Challenge Series - Our Second Week!",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/tk4upr/minds_were_blown_jaws_were_dropped/",
+      "title": "Minds were Blown, Jaws were Dropped!",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/1odgu7l/reflecting_on_the_people_behind_waste_recycling/",
+      "title": "Reflecting on the People Behind Waste &amp; Recycling",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/1i8xhja/plastic_fishing_ropes_a_growing_waste_crisis_and/",
+      "title": "Plastic Fishing Ropes – A Growing Waste Crisis and the Need for Sustainable Solutions",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/yjfgb5/thinking_about_composting_now_is_the_best_time_to/",
+      "title": "Thinking about composting? NOW is the best time to start! While you're at it, join us on /r/Compost for the Leaf Collection Challenge!",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/pa56rj/challenge_series_week_34_lets_do_another_trash/",
+      "title": "Challenge Series Week 34 - Let's Do Another Trash Audit!",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ZeroWaste/comments/m613ih/challenge_series_week_11_trash_audits/",
+      "title": "Challenge Series Week 11 - Trash Audits!",
+      "subreddit": "ZeroWaste",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/woodworking/comments/pkfng0/organizing_my_workshop_on_a_tight_budget_i_made/",
+      "title": "Organizing my workshop on a tight budget. I made these projects using mostly scrap and offcuts.",
+      "subreddit": "woodworking",
+      "key": true
+    },
+    {
+      "url": "https://www.reddit.com/r/woodworking/comments/8k4spx/my_daughters_ready_for_her_school_presentation/",
+      "title": "My daughter’s ready for her school presentation about the Double Helix Flyer 9’0” Longboard she built 🌊 Redwood floorboards from the 1800s with koa, spruce, cocobolo, &amp; cherry inlays of offcuts from Santa Cruz Guitar Co. Tail block of Doug fir from the hull of John Steinbeck’s Western Flyer boat.",
+      "subreddit": "woodworking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/woodworking/comments/1pm2zwv/christmas_present_offcut_eater_tongs/",
+      "title": "Christmas present offcut eater: Tongs!",
+      "subreddit": "woodworking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/woodworking/comments/1gnfggt/cedar_offcuts_from_a_local_mill_for_30_how_did_i/",
+      "title": "Cedar offcuts from a local mill for $30, how did i do?",
+      "subreddit": "woodworking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/woodworking/comments/1iur8jn/i_made_a_little_guy_with_offcuts_and_copper_wire/",
+      "title": "I made a little guy with offcuts and copper wire.",
+      "subreddit": "woodworking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/woodworking/comments/1hlh9wv/found_a_purpose_for_pretty_offcuts/",
+      "title": "Found a purpose for pretty offcuts",
+      "subreddit": "woodworking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/woodworking/comments/dagwms/ive_been_making_guitar_picks_from_my_offcuts/",
+      "title": "I've been making guitar picks from my offcuts. Super fun!",
+      "subreddit": "woodworking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/woodworking/comments/1g8ztrn/a_bunch_of_cedar_deck_offcuts_and_a_few_hours_of/",
+      "title": "A bunch of cedar deck offcuts and a few hours of jigsaw work!",
+      "subreddit": "woodworking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/woodworking/comments/8g8pm7/hollowframed_starry_bolt_top_bottom_decks_shown/",
+      "title": "Hollow-framed Starry Bolt (top &amp; bottom decks shown here) ready for waves! Made of hot tub redwood &amp; offcuts of sapele, wenge, flame mahogany, maple, padauk, bay laurel, ebony, and Doug fir from Santa Cruz Guitar Co, a cabinet shop &amp; Steinbeck’s Western Flyer boat. 7’2\" x 19.75\" x 2.625\" ~14 pounds.",
+      "subreddit": "woodworking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/woodworking/comments/1ch9e1z/this_is_what_the_offcuts_i_save_are_for/",
+      "title": "This is what the offcuts I save are for.",
+      "subreddit": "woodworking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/framework/comments/1pjdd1h/nasa_seems_to_be_developing_their_next_generation/",
+      "title": "NASA seems to be developing their next generation of space laptops off of Framework's platform",
+      "subreddit": "framework",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/framework/comments/1pkgdg6/updates_on_memory_pricing_and_navigating_the/",
+      "title": "Updates on memory pricing and navigating the volatile memory market",
+      "subreddit": "framework",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/framework/comments/177zw63/availability_of_replacement_parts_in_case/",
+      "title": "Availability of replacement parts in case Framework goes bankrupt",
+      "subreddit": "framework",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/framework/comments/173xpcd/us_warehouse_parts_availability/",
+      "title": "US warehouse parts availability?",
+      "subreddit": "framework",
+      "key": true
+    },
+    {
+      "url": "https://www.reddit.com/r/framework/comments/1rorduz/framework_13_3d_printed_hard_shell_cover_ready/",
+      "title": "Framework 13 - 3D Printed Hard Shell Cover Ready",
+      "subreddit": "framework",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/framework/comments/13dk09w/shipping_parts_to_regions_where_the_laptop_isnt/",
+      "title": "Shipping parts to regions where the laptop isn't available?",
+      "subreddit": "framework",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/framework/comments/ut22f9/introducing_the_new_and_upgraded_framework_laptop/",
+      "title": "Introducing the new and upgraded Framework Laptop",
+      "subreddit": "framework",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/framework/comments/ottxsk/how_long_will_parts_be_available/",
+      "title": "How long will parts be available?",
+      "subreddit": "framework",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/framework/comments/1lfxj16/is_anyone_else_concerned_for_the_future_of_the/",
+      "title": "Is anyone else concerned for the Future of the Framework 16?",
+      "subreddit": "framework",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1m53268/i_made_a_sun_catcher_using_my_empty_insulin_vials/",
+      "title": "I made a sun catcher using my empty insulin vials",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1m1ksku/my_largest_scrap_yarn_project/",
+      "title": "My largest scrap yarn project",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1lmaddq/hi_i_just_started_making_plushies_from_old/",
+      "title": "Hi! I just started making plushies from old sweatshirts (upcycling), for my mental health.",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1kdfud9/made_this_dress_from_a_goodwill_bedsheet/",
+      "title": "Made this dress from a goodwill bedsheet!",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1rx6yb2/tunisian_crochet_with_teabag_strings/",
+      "title": "Tunisian crochet with teabag strings",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1i0g9o5/made_a_bunch_of_things_from_some_damaged_jeans_i/",
+      "title": "Made a bunch of things from some damaged jeans I was given :)",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1hq4a4e/yall_seemed_excited_about_my_antique_tv_when_i/",
+      "title": "Y'all seemed excited about my antique TV when I got it. I finally got around to finishing it!",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1qmeogh/im_obsessed_with_making_koi_from_cans/",
+      "title": "I’m obsessed with making koi from cans",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1mvuoia/turned_two_pairs_of_thrifted_pants_that_didnt_fit/",
+      "title": "Turned two pairs of thrifted pants that didn’t fit into one pair!",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/upcycling/comments/1gfb9sm/after_years_of_collecting_pull_tabs_i_finally/",
+      "title": "After years of collecting pull tabs I finally found a use for them!",
+      "subreddit": "upcycling",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/aliens/comments/1le8sbd/all_my_data_regarding_that_celestial_object/",
+      "title": "All my data regarding that celestial object heading to earth",
+      "subreddit": "aliens",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/12wicq3/wearing_power_armor_to_a_magic_school_27/",
+      "title": "Wearing Power Armor to a Magic School (27/?)",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/riskofrain/comments/1piexev/ror2_new_patch/",
+      "title": "ROR2 New Patch!",
+      "subreddit": "riskofrain",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/neoliberal/comments/uaefwh/effortpost_snowden_is_a_traitor_debunking_myths/",
+      "title": "[Effortpost] Snowden is a traitor. Debunking myths and examining evidence.",
+      "subreddit": "neoliberal",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Hobbies/comments/zqwx6c/the_hobby_master_list_and_their_subreddit/",
+      "title": "The Hobby Master List (and their subreddit)",
+      "subreddit": "Hobbies",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/INFPIdeas/comments/1p2j28h/idea_for_a_global_wikiwasteexchange_a_free/",
+      "title": "Idea for a Global Wiki-WasteExchange: A Free, AI-Powered Public Good to Transform Waste Into Resources",
+      "subreddit": "INFPIdeas",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/1lgbhey/sexy_space_babes_mechs_maidens_and_macaroons/",
+      "title": "Sexy Space Babes - Mechs, Maidens and Macaroons: Chapter Nine",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/swpfts/jennifer_is_not_an_eldritch_horror_15/",
+      "title": "Jennifer is NOT an Eldritch Horror 15",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DestinyTheGame/comments/3cgh4l/the_true_triumphs_list_of_a_day_one_player/",
+      "title": "The TRUE triumphs list of a day one player ;)",
+      "subreddit": "DestinyTheGame",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/UPSC/comments/141nzc8/a_guide_to_getting_started_with_upsc_cse_2024/",
+      "title": "A Guide to Getting Started with UPSC CSE 2024",
+      "subreddit": "UPSC",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DestinyTheGame/comments/y35j2s/this_week_at_bungie_10132022/",
+      "title": "This Week At Bungie 10/13/2022",
+      "subreddit": "DestinyTheGame",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/spacex/comments/ap3bz1/estimating_the_mass_of_a_martian_propellant_plant/",
+      "title": "Estimating the mass of a Martian Propellant Plant for Starship - a detailed analysis",
+      "subreddit": "spacex",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/CapitalismVSocialism/comments/1s3vr3f/capitalism_is_civilizationally_incoherent/",
+      "title": "Capitalism Is Civilizationally Incoherent",
+      "subreddit": "CapitalismVSocialism",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/1ktyf83/humanity_spoke_softly/",
+      "title": "Humanity spoke softly",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Welding/comments/1qca2is/nineteen_with_my_own_rig_success_story/",
+      "title": "nineteen with my own rig (success story?)",
+      "subreddit": "Welding",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Stellaris/comments/1mw7q48/stellaris_dev_diary_389_4022_released_upcoming/",
+      "title": "Stellaris Dev Diary #389 - 4.0.22 Released, Upcoming Planet Improvements",
+      "subreddit": "Stellaris",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Stellaris/comments/1mpxgi3/stellaris_dev_diary_388_the_wilderness_and_4022/",
+      "title": "Stellaris Dev Diary #388 - The Wilderness and 4.0.22 Preliminary Release Notes",
+      "subreddit": "Stellaris",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/HFY/comments/1oztozq/the_loyalty_of_beasts/",
+      "title": "The Loyalty of Beasts",
+      "subreddit": "HFY",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DumpsterDiving/comments/l3eo9r/trash_to_cash_how_i_make_12k_per_month_dumpster/",
+      "title": "Trash to Cash, How I make $1-2k+ per month dumpster diving (FB Marketplace, Scrapping, eBay)",
+      "subreddit": "DumpsterDiving",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Superstonk/comments/w7sonc/apes_are_coming_around_to_the_metaverse_idea_now/",
+      "title": "Apes are coming around to the metaverse idea now that Cyber Crew is catching on. Here's what I've said about GameStop's metaverse potential.",
+      "subreddit": "Superstonk",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Stellaris/comments/1mw5lix/4022_patch_released_checksum_b03b/",
+      "title": "4.0.22 Patch Released (checksum b03b)",
+      "subreddit": "Stellaris",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/BudgetAudiophile/comments/1rc6bqf/stands_dont_have_to_be_expensive_or_ridiculously/",
+      "title": "Stands don't have to be expensive or ridiculously engineered. I made some MCM-inspired stands from 2x4 scraps.",
+      "subreddit": "BudgetAudiophile",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/starsector/comments/na990w/industrial_revolution_scrap_resource/",
+      "title": "Industrial Revolution (Scrap Resource)",
+      "subreddit": "starsector",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/NatureofPredators/comments/186si69/nop_a_recipe_for_disaster_part_32/",
+      "title": "NoP: A Recipe for Disaster (Part 32)",
+      "subreddit": "NatureofPredators",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Banking/comments/1jnu9eo/the_fall_of_normal_funds_transfers_and_the_rise/",
+      "title": "The Fall of Normal Funds Transfers and the \"Rise\" of Zelle",
+      "subreddit": "Banking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/CarAV/comments/1k7xhno/unpopular_opinion_jl_audio_stopped_being_a_car/",
+      "title": "Unpopular Opinion: JL Audio Stopped Being a Car Audio Company A Long Time Ago",
+      "subreddit": "CarAV",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/blacksmithing/comments/1s143y9/lend_me_your_brain_power_to_decide_between_two/",
+      "title": "Lend me your brain power to decide between two 2x72 grinders! (originally posted to r/knifemaking)",
+      "subreddit": "blacksmithing",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/virtualreality/comments/1kbtrqj/was_the_first_time_trying_a_modern_vr_headset_a/",
+      "title": "Was the first time trying a modern VR headset a transformative moment for anyone else?",
+      "subreddit": "virtualreality",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/metalworking/comments/1s13u1w/lend_me_your_brain_power_and_help_me_decide/",
+      "title": "Lend me your brain power and help me decide between two 2x72 grinders!",
+      "subreddit": "metalworking",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/vancouver/comments/qfxtlw/rvancouver_shop_local_holiday_guide_2021/",
+      "title": "/r/vancouver shop local holiday guide 2021",
+      "subreddit": "vancouver",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Superstonk/comments/1qspbtq/is_rc_eying_ebays_collectibles_market_as_a/",
+      "title": "Is RC eying eBay’s collectibles market as a carve-out acquisition?",
+      "subreddit": "Superstonk",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/belgium/comments/1nrau2o/launched_a_new_belgian_platform_for_secondhand/",
+      "title": "Launched a new Belgian platform for second-hand construction materials",
+      "subreddit": "belgium",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/Ontario_Event_Planer/comments/1s2zfdv/how_do_you_choose_the_perfect_giant_paper_flower/",
+      "title": "How Do You Choose the Perfect Giant Paper Flower?",
+      "subreddit": "Ontario_Event_Planer",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/InternshipsIndia/comments/1qdmwns/rate_n_roast/",
+      "title": "Rate n Roast.",
+      "subreddit": "InternshipsIndia",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/DigitalBarterEconomy/comments/1rtluhs/envisioning_a_number_of_logistics_relating_odoo/",
+      "title": "Envisioning a number of logistics relating odoo applications on the the principles of predictive queue based digital barter economics",
+      "subreddit": "DigitalBarterEconomy",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/u_MirkWorks/comments/1rzlvy8/from_the_structure_of_world_history_by_kojin/",
+      "title": "From The Structure of World History by Kojin Karatani (Introduction: On Modes of Exchange II)",
+      "subreddit": "u_MirkWorks",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/remotework/comments/1rq57ug/frontend_developers_working_in_react_react_native/",
+      "title": "Frontend developers working in React / React Native — what is actually working for freelance opportunities right now?",
+      "subreddit": "remotework",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/unrealengine4/comments/1rsgthr/ultra_realistic_lake_water_material_in_unreal/",
+      "title": "Ultra Realistic Lake Water Material in Unreal Engine 5 (Dynamic Water Shader)",
+      "subreddit": "unrealengine4",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/FreelanceProgramming/comments/1rq591o/frontend_developers_working_in_react_react_native/",
+      "title": "Frontend developers working in React / React Native — what is actually working for freelance opportunities right now?",
+      "subreddit": "FreelanceProgramming",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ITjobsinindia/comments/1rq57g7/frontend_developers_working_in_react_react_native/",
+      "title": "Frontend developers working in React / React Native — what is actually working for freelance opportunities right now?",
+      "subreddit": "ITjobsinindia",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ResumeExperts/comments/1qrxar6/4_yoe_looking_for_frontend_engineer_roles/",
+      "title": "[4 YOE] Looking for frontend engineer roles",
+      "subreddit": "ResumeExperts",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/punkfashion/comments/1goy6or/guide_to_punk_diys/",
+      "title": "Guide to punk DIYs",
+      "subreddit": "punkfashion",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/AISEOInsider/comments/1rpc29m/perplexity_skills_makes_ai_workflows_automatic/",
+      "title": "Perplexity Skills Makes AI Workflows Automatic",
+      "subreddit": "AISEOInsider",
+      "key": false
+    },
+    {
+      "url": "https://www.reddit.com/r/resumes/comments/1rche3n/6_yoe_senior_frontend_dev_senior_frontend_dev/",
+      "title": "[6 YoE, Senior Frontend Dev, Senior Frontend  Dev, Europe]",
+      "subreddit": "resumes",
+      "key": false
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { ReportScorecardCard } from "@/components/report-scorecard-card";
 import { ReportRatingForm } from "@/components/report-rating-form";
+import { ScorecardInfo } from "@/components/scorecard-info";
 import { HeroBackground } from "@/components/hero-background";
 import Link from "next/link";
 import aiFinancial from "@/data/reports/ai-financial-management-platform.json";
@@ -11,6 +12,12 @@ const REPORTS: Record<string, typeof aiFinancial> = {
   "ai-financial-management-platform": aiFinancial,
   "reusable-material-exchange-marketplace": exchangeMarketplace,
   "reusable-material-exchange-platform": exchangePlatform,
+};
+
+const METADATA: Record<string, { submitted_at: string; status: string }> = {
+  "ai-financial-management-platform":        { submitted_at: "2026-03-28T20:31:05", status: "Completed" },
+  "reusable-material-exchange-marketplace":  { submitted_at: "2026-03-28T20:22:12", status: "Completed" },
+  "reusable-material-exchange-platform":     { submitted_at: "2026-03-28T19:56:42", status: "Completed" },
 };
 
 export function generateStaticParams() {
@@ -62,8 +69,13 @@ function Badge({ label, colors }: { label: string; colors: { bg: string; text: s
   );
 }
 
-function SectionTitle({ children }: { children: React.ReactNode }) {
-  return <h2 className="font-headline text-xl font-bold tracking-tight mb-5">{children}</h2>;
+function SectionTitle({ children, subtitle }: { children: React.ReactNode; subtitle?: string }) {
+  return (
+    <div className="mb-5">
+      <h2 className="font-headline text-xl font-bold tracking-tight">{children}</h2>
+      {subtitle && <p className="mt-1 text-sm text-on-surface-variant">{subtitle}</p>}
+    </div>
+  );
 }
 
 function Card({ children, className = "", style }: { children: React.ReactNode; className?: string; style?: React.CSSProperties }) {
@@ -81,8 +93,14 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
   if (!report) notFound();
 
   const vc = verdictColor(report.verdict);
+  const meta = METADATA[id];
   const keySources = report.sources.filter((s) => s.key);
   const otherSources = report.sources.filter((s) => !s.key);
+
+  const submittedAt = new Date(meta.submitted_at).toLocaleString("en-US", {
+    month: "short", day: "numeric", year: "numeric",
+    hour: "2-digit", minute: "2-digit",
+  });
 
   return (
     <main className="relative min-h-screen bg-surface pt-24 pb-20 px-4 md:px-6 overflow-hidden">
@@ -107,6 +125,9 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
                   <span className="text-xs font-semibold px-3 py-1 rounded-full" style={{ background: vc.bg, color: vc.text }}>
                     {report.verdict}
                   </span>
+                  <span className="text-[11px] bg-surface-container text-on-surface-variant px-2.5 py-0.5 rounded-full font-medium">
+                    {meta.status}
+                  </span>
                   <span className="text-xs text-on-surface-variant">
                     {report.subreddits_count} communities · signal: <span className="font-medium capitalize">{report.signal_quality}</span>
                   </span>
@@ -114,6 +135,12 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
                 <h1 className="font-headline text-2xl md:text-3xl font-bold tracking-tight leading-snug">
                   {report.idea_title}
                 </h1>
+                <p className="mt-2 text-[11px] text-on-surface-variant flex items-center gap-1.5">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0">
+                    <circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" />
+                  </svg>
+                  Submitted {submittedAt}
+                </p>
               </div>
 
               {/* Score */}
@@ -157,7 +184,10 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
 
         {/* ── Scorecard ── */}
         <section>
-          <SectionTitle>Potential Scorecard</SectionTitle>
+          <div className="flex items-center gap-1.5 mb-5">
+            <h2 className="font-headline text-xl font-bold tracking-tight">Potential Scorecard</h2>
+            <ScorecardInfo />
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {report.dimension_scores.map((d) => (
               <ReportScorecardCard key={d.name} name={d.name} score={d.score} justification={d.justification} />
@@ -167,7 +197,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
 
         {/* ── Pain Points ── */}
         <section>
-          <SectionTitle>Pain Points Discovered</SectionTitle>
+          <SectionTitle subtitle="Real frustrations surfaced from active market discussions — the problems people are vocal about right now.">Pain Points Discovered</SectionTitle>
           <div className="space-y-3">
             {report.pain_points.map((p) => (
               <Card key={p.rank} className="flex gap-4">
@@ -192,7 +222,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
 
         {/* ── Competitors ── */}
         <section>
-          <SectionTitle>Known Competitors</SectionTitle>
+          <SectionTitle subtitle="Existing solutions and alternatives operating in your space, mapped with their strengths and blind spots.">Known Competitors</SectionTitle>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {report.competitors.map((c) => (
               <Card key={c.name}>
@@ -228,7 +258,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
 
         {/* ── Differentiation ── */}
         <section>
-          <SectionTitle>Differentiation Opportunities</SectionTitle>
+          <SectionTitle subtitle="The gaps competitors leave open and how your idea can exploit them to stand out.">Differentiation Opportunities</SectionTitle>
           <div className="space-y-3">
             {report.differentiation_opportunities.map((o) => (
               <Card key={o.gap}>
@@ -254,7 +284,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
 
         {/* ── Risks ── */}
         <section>
-          <SectionTitle>Key Risks</SectionTitle>
+          <SectionTitle subtitle="The most critical threats to your idea's success, each paired with a mitigation suggestion.">Key Risks</SectionTitle>
           <div className="space-y-3">
             {report.risks.map((r) => (
               <Card key={r.title} className="border-l-4" style={{ borderColor: likelihoodColor(r.likelihood).text }}>
@@ -279,7 +309,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
 
         {/* ── Use Cases ── */}
         <section>
-          <SectionTitle>Suggested Use Cases</SectionTitle>
+          <SectionTitle subtitle="The highest-value scenarios where your idea fits best, ranked by opportunity size.">Suggested Use Cases</SectionTitle>
           <div className="space-y-3">
             {report.use_cases.map((u) => (
               <Card key={u.title}>
@@ -297,7 +327,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
 
         {/* ── Pivots ── */}
         <section>
-          <SectionTitle>Suggested Pivots</SectionTitle>
+          <SectionTitle subtitle="Strategic adjustments to sharpen your positioning based on what the research revealed.">Suggested Pivots</SectionTitle>
           <div className="space-y-3">
             {report.pivots.map((p) => (
               <Card key={p.title}>
@@ -311,7 +341,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
 
         {/* ── Next Steps ── */}
         <section>
-          <SectionTitle>Next Steps</SectionTitle>
+          <SectionTitle subtitle="Concrete actions to take right now based on the validation findings.">Next Steps</SectionTitle>
           <Card>
             <ol className="space-y-3">
               {report.next_steps.map((step, i) => (
@@ -328,7 +358,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
 
         {/* ── Sources ── */}
         <section>
-          <SectionTitle>Sources <span className="text-base font-normal text-on-surface-variant">({report.sources.length})</span></SectionTitle>
+          <SectionTitle subtitle="The real discussions and threads that informed every finding in this report.">Sources <span className="text-base font-normal text-on-surface-variant">({report.sources.length})</span></SectionTitle>
           <Card>
             {keySources.length > 0 && (
               <>
@@ -375,7 +405,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
 
         {/* ── Rate this report ── */}
         <section>
-          <SectionTitle>Rate this Report</SectionTitle>
+          <SectionTitle subtitle="Your feedback helps us improve the accuracy and quality of every validation.">Rate this Report</SectionTitle>
           <ReportRatingForm />
         </section>
 

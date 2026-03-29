@@ -94,8 +94,8 @@ export default async function PitchDetailPage({ params }: { params: Promise<{ id
 
   const statusLabel =
     pitch.status === "COMPLETED" ? "Completed"
-    : pitch.status === "PROCESSING" ? "Analyzing"
-    : "Pending";
+      : pitch.status === "PROCESSING" ? "Analyzing"
+        : "Pending";
 
   const vc = report ? verdictColor(report.verdict) : null;
   const keySources = report?.sources.filter((s) => s.key) ?? [];
@@ -240,7 +240,7 @@ export default async function PitchDetailPage({ params }: { params: Promise<{ id
 
             {/* ── Pain Points ── */}
             <section>
-              <SectionTitle subtitle="Real frustrations surfaced from active market discussions — the problems people are vocal about right now.">Pain Points Discovered</SectionTitle>
+              <SectionTitle subtitle="Real frustrations surfaced from active market discussions. The problems people are vocal about right now.">Pain Points Discovered</SectionTitle>
               <div className="space-y-3">
                 {report.pain_points.map((p) => (
                   <Card key={p.rank} className="flex gap-4">

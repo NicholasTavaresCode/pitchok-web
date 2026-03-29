@@ -72,6 +72,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      data-scroll-behavior="smooth"
       className={`${plusJakarta.variable} ${manrope.variable}`}
     >
       <body className="min-h-screen flex flex-col bg-surface text-on-surface font-body antialiased">
